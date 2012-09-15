@@ -91,6 +91,10 @@
 		"selected_items":
 		[
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"remove",
 				"Package Control: Remove Package"
 			],
@@ -165,10 +169,6 @@
 			[
 				"git s",
 				"Git: Status"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"package",
@@ -268,7 +268,24 @@
 	},
 	"file_history":
 	[
+		"/E/Documents/GitHub/license/app/Config/database.php",
+		"/D/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/D/htdocs/wiki/LocalSettings.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/xampp/apache/conf/httpd.conf",
+		"/D/htdocs/wiki/includes/DefaultSettings.php",
+		"/D/htdocs/wiki/mw-config/index.php",
+		"/D/htdocs/wiki/includes/WebStart.php",
+		"/D/htdocs/wiki/index.php",
+		"/D/htdocs/wiki/includes/Setup.php",
+		"/D/htdocs/wiki/config/index.php5",
+		"/D/htdocs/wiki/mw-config/index.php5",
+		"/D/htdocs/wiki/config/index.php",
+		"/E/Documents/GitHub/license/.gitignore",
 		"/E/Downloads/51CTO下载-精仿19楼社区整站/说明.txt",
+		"/E/Documents/GitHub/license/app/Console/cake.php",
+		"/E/Documents/GitHub/license/app/Config/core.php",
+		"/E/Documents/GitHub/license/app/Config/acl.ini.php",
 		"/E/Downloads/51CTO下载-精仿19楼社区整站/免费精仿19楼社区整站.txt",
 		"/E/Downloads/51CTO下载-精仿19楼社区整站/10元下载VIP源码.txt",
 		"/C/Users/tomato/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -360,6 +377,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Directory",
 			"project",
 			"z/",
 			"id=\"news\"",
@@ -560,6 +578,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 244.0,
+	"side_bar_width": 227.0,
 	"status_bar_visible": true
 }
