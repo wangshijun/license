@@ -268,10 +268,11 @@
 	},
 	"file_history":
 	[
+		"/E/Documents/GitHub/license/app/Config/bootstrap.php",
+		"/E/Documents/GitHub/license/app/webroot/index.php",
 		"/E/Documents/GitHub/easycms/plugins/build.py",
 		"/E/Documents/GitHub/license/app/Config/database.php",
 		"/E/Documents/GitHub/license/app/Config/core.php",
-		"/E/Documents/GitHub/license/app/webroot/index.php",
 		"/E/Documents/GitHub/easycms/index.php",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/D/xampp/apache/conf/extra/httpd-vhosts.conf",
