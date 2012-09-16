@@ -268,10 +268,19 @@
 	},
 	"file_history":
 	[
+		"/E/Documents/GitHub/easycms/plugins/build.py",
 		"/E/Documents/GitHub/license/app/Config/database.php",
-		"/D/xampp/apache/conf/extra/httpd-vhosts.conf",
-		"/D/htdocs/wiki/LocalSettings.php",
+		"/E/Documents/GitHub/license/app/Config/core.php",
+		"/E/Documents/GitHub/license/app/webroot/index.php",
+		"/E/Documents/GitHub/easycms/index.php",
 		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/E/Documents/GitHub/license/app/webroot/test.php",
+		"/D/xampp/apache/logs/error.log",
+		"/D/xampp/apache/logs/shijun-access.log",
+		"/D/xampp/apache/logs/license-access.log",
+		"/E/Documents/GitHub/license/app/index.php",
+		"/D/htdocs/wiki/LocalSettings.php",
 		"/D/xampp/apache/conf/httpd.conf",
 		"/D/htdocs/wiki/includes/DefaultSettings.php",
 		"/D/htdocs/wiki/mw-config/index.php",
@@ -284,7 +293,6 @@
 		"/E/Documents/GitHub/license/.gitignore",
 		"/E/Downloads/51CTO下载-精仿19楼社区整站/说明.txt",
 		"/E/Documents/GitHub/license/app/Console/cake.php",
-		"/E/Documents/GitHub/license/app/Config/core.php",
 		"/E/Documents/GitHub/license/app/Config/acl.ini.php",
 		"/E/Downloads/51CTO下载-精仿19楼社区整站/免费精仿19楼社区整站.txt",
 		"/E/Downloads/51CTO下载-精仿19楼社区整站/10元下载VIP源码.txt",
@@ -377,6 +385,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"license.shijun.com",
 			"Directory",
 			"project",
 			"z/",
