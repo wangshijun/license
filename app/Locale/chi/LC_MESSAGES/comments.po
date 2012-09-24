@@ -1,0 +1,452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: easy_projects\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-23 10:16+0800\n"
+"PO-Revision-Date: 2012-09-23 10:16+0800\n"
+"Last-Translator: wangshijun <wangshijun2010@gmail.com>\n"
+"Language-Team: tomato <wangshijun2010@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __d:2\n"
+"X-Poedit-Basepath: E:/Documents/GitHub/plugins/Comments\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Controller/CommentsController.php:128 Controller/CommentsController.php:145
+msgid "Wrong comment id"
+msgstr "无效的评论ID"
+
+#: Controller/CommentsController.php:130
+msgid "Antispam system informed about spam message."
+msgstr "Antispam system informed about spam message."
+
+#: Controller/CommentsController.php:132 Controller/CommentsController.php:149
+msgid "Error appear during save."
+msgstr "保存过程中出错"
+
+#: Controller/CommentsController.php:147
+msgid "Antispam system informed about ham message."
+msgstr "Antispam system informed about ham message."
+
+#: Controller/CommentsController.php:163 Controller/CommentsController.php:195
+msgid "Invalid Comment."
+msgstr "无效的评论"
+
+#: Controller/CommentsController.php:177
+msgid "Invalid id for Comment"
+msgstr "无效的评论ID"
+
+#: Controller/CommentsController.php:179
+msgid "Comment deleted"
+msgstr "评论删除成功"
+
+#: Controller/CommentsController.php:181
+msgid "Impossible to delete the Comment. Please try again."
+msgstr "抱歉, 评论删除失败,请重试"
+
+#: Controller/Component/CommentsComponent.php:487
+msgid "The Comment has been saved."
+msgstr "评论保存成功"
+
+#: Controller/Component/CommentsComponent.php:498
+msgid "The Comment could not be saved. Please, try again."
+msgstr "抱歉,评论保存失败,请重试"
+
+#: Controller/Component/CommentsComponent.php:542
+msgid "Nonrestricted operation"
+msgstr "您无权进行该操作"
+
+#: Controller/Component/CommentsComponent.php:545
+msgid "The Comment status has been updated."
+msgstr "评论状态更新成功"
+
+#: Controller/Component/CommentsComponent.php:547
+msgid "Error appear during comment status update. Try later."
+msgstr "抱歉,评论状态更新失败,请重试"
+
+#: Controller/Component/CommentsComponent.php:560
+msgid "The Comment has been deleted."
+msgstr "评论删除成功"
+
+#: Controller/Component/CommentsComponent.php:562
+msgid "Error appear during comment deleting. Try later."
+msgstr "抱歉,评论删除失败,请重试"
+
+#: Model/Comment.php:119 Model/Comment.php:160
+msgid "Some errors appear during execution."
+msgstr "代码执行过程中出错"
+
+#: Model/Comment.php:123
+msgid "Comments removed."
+msgstr "评论删除成功"
+
+#: Model/Comment.php:165
+msgid "Operation was performed. "
+msgstr "操作成功"
+
+#: Model/Behavior/CommentableBehavior.php:160
+msgid "Unallowed comment id"
+msgstr "非法的评论ID"
+
+#: View/Comments/add.ctp:15 View/Comments/admin_add.ctp:15
+#: View/Elements/comments/flat/main.ctp:20
+#: View/Elements/comments/threaded/main.ctp:20
+#: View/Elements/comments/tree/main.ctp:19
+msgid "Add Comment"
+msgstr "添加评论"
+
+#: View/Comments/add.ctp:29 View/Comments/add.ctp:30
+#: View/Comments/admin_add.ctp:29 View/Comments/admin_add.ctp:30
+#: View/Comments/admin_edit.ctp:31 View/Comments/admin_edit.ctp:32
+#: View/Comments/admin_view.ctp:66 View/Comments/admin_view.ctp:68
+#: View/Comments/edit.ctp:31 View/Comments/edit.ctp:32
+#: View/Comments/index.ctp:86 View/Comments/view.ctp:66
+#: View/Comments/view.ctp:68
+msgid "List Comments"
+msgstr "查看评论"
+
+#: View/Comments/add.ctp:31 View/Comments/admin_add.ctp:31
+#: View/Comments/admin_edit.ctp:33 View/Comments/admin_view.ctp:69
+#: View/Comments/edit.ctp:33 View/Comments/index.ctp:87
+#: View/Comments/view.ctp:69
+msgid "New Parent Comment"
+msgstr "添加评论"
+
+#: View/Comments/add.ctp:32 View/Comments/admin_add.ctp:32
+#: View/Comments/admin_edit.ctp:34 View/Comments/admin_view.ctp:70
+#: View/Comments/edit.ctp:34 View/Comments/index.ctp:88
+#: View/Comments/view.ctp:70
+msgid "List Users"
+msgstr "查看用户"
+
+#: View/Comments/add.ctp:33 View/Comments/admin_add.ctp:33
+#: View/Comments/admin_edit.ctp:35 View/Comments/admin_view.ctp:71
+#: View/Comments/edit.ctp:35 View/Comments/index.ctp:89
+#: View/Comments/view.ctp:71
+msgid "New User"
+msgstr "添加用户"
+
+#: View/Comments/admin_edit.ctp:15 View/Comments/admin_view.ctp:64
+#: View/Comments/edit.ctp:15 View/Comments/view.ctp:64
+msgid "Edit Comment"
+msgstr "编辑评论"
+
+#: View/Comments/admin_edit.ctp:30 View/Comments/admin_index.ctp:63
+#: View/Comments/admin_index.ctp:75 View/Comments/admin_view.ctp:111
+#: View/Comments/edit.ctp:30 View/Comments/index.ctp:72
+#: View/Comments/view.ctp:111
+msgid "Delete"
+msgstr "删除"
+
+#: View/Comments/admin_edit.ctp:30 View/Comments/admin_index.ctp:63
+#: View/Comments/admin_view.ctp:65 View/Comments/admin_view.ctp:111
+#: View/Comments/edit.ctp:30 View/Comments/index.ctp:72
+#: View/Comments/view.ctp:65 View/Comments/view.ctp:111
+#, php-format
+msgid "Are you sure you want to delete # %s?"
+msgstr "您确定要删除记录#%s么?"
+
+#: View/Comments/admin_index.ctp:2 View/Comments/index.ctp:13
+#: View/Elements/comments/flat/main.ctp:23
+#: View/Elements/comments/flat/main.ctp:29
+#: View/Elements/comments/threaded/main.ctp:23
+#: View/Elements/comments/threaded/main.ctp:29
+#: View/Elements/comments/tree/main.ctp:22
+#: View/Elements/comments/tree/main.ctp:28
+msgid "Comments"
+msgstr "用户评论"
+
+#: View/Comments/admin_index.ctp:5
+msgid "type to search"
+msgstr "搜索"
+
+#: View/Comments/admin_index.ctp:9 View/Elements/comments/finder.ctp:40
+msgid "Search"
+msgstr "搜索"
+
+#: View/Comments/admin_index.ctp:10
+msgid "Spam Comments"
+msgstr "垃圾评论"
+
+#: View/Comments/admin_index.ctp:32 View/Comments/admin_view.ctp:88
+#: View/Comments/index.ctp:31 View/Comments/view.ctp:88
+msgid "Actions"
+msgstr "管理"
+
+#: View/Comments/admin_index.ctp:62 View/Elements/comments/flat/item.ctp:18
+#: View/Elements/comments/threaded/item.ctp:18
+#: View/Elements/comments/tree/item.ctp:18
+msgid "Reply"
+msgstr "回复"
+
+#: View/Comments/admin_index.ctp:76
+msgid "Approve"
+msgstr "通过"
+
+#: View/Comments/admin_index.ctp:77
+msgid "Dispprove"
+msgstr "屏蔽"
+
+#: View/Comments/admin_index.ctp:79
+msgid "Process"
+msgstr "应用"
+
+#: View/Comments/admin_index.ctp:89
+msgid "Oops"
+msgstr "哎呀"
+
+#: View/Comments/admin_index.ctp:89
+msgid "No data found"
+msgstr "没有找到数据"
+
+#: View/Comments/admin_view.ctp:13 View/Comments/view.ctp:13
+msgid "Comment"
+msgstr "评论"
+
+#: View/Comments/admin_view.ctp:15 View/Comments/admin_view.ctp:79
+#: View/Comments/view.ctp:15 View/Comments/view.ctp:79
+msgid "Id"
+msgstr "ID"
+
+#: View/Comments/admin_view.ctp:20 View/Comments/view.ctp:20
+msgid "Parent Comment"
+msgstr "引用"
+
+#: View/Comments/admin_view.ctp:25 View/Comments/view.ctp:25
+msgid "Commented On"
+msgstr "发表时间"
+
+#: View/Comments/admin_view.ctp:30 View/Comments/view.ctp:30
+msgid "User"
+msgstr "用户"
+
+#: View/Comments/admin_view.ctp:35 View/Comments/admin_view.ctp:83
+#: View/Comments/view.ctp:35 View/Comments/view.ctp:83
+msgid "Model"
+msgstr "Model"
+
+#: View/Comments/admin_view.ctp:40 View/Comments/admin_view.ctp:84
+#: View/Comments/view.ctp:40 View/Comments/view.ctp:84
+#: View/Elements/comments/finder.ctp:19 View/Elements/comments/finder.ctp:24
+msgid "Approved"
+msgstr "审核?"
+
+#: View/Comments/admin_view.ctp:45 View/Comments/admin_view.ctp:85
+#: View/Comments/view.ctp:45 View/Comments/view.ctp:85
+msgid "Body"
+msgstr "内容"
+
+#: View/Comments/admin_view.ctp:50 View/Comments/admin_view.ctp:86
+#: View/Comments/view.ctp:50 View/Comments/view.ctp:86
+msgid "Created"
+msgstr "创建时间"
+
+#: View/Comments/admin_view.ctp:55 View/Comments/admin_view.ctp:87
+#: View/Comments/view.ctp:55 View/Comments/view.ctp:87
+msgid "Modified"
+msgstr "修改时间"
+
+#: View/Comments/admin_view.ctp:65 View/Comments/view.ctp:65
+msgid "Delete Comment"
+msgstr "删除评论"
+
+#: View/Comments/admin_view.ctp:67 View/Comments/index.ctp:85
+#: View/Comments/view.ctp:67
+msgid "New Comment"
+msgstr "添加评论"
+
+#: View/Comments/admin_view.ctp:75 View/Comments/view.ctp:75
+msgid "Related Comments"
+msgstr "相关评论"
+
+#: View/Comments/admin_view.ctp:80 View/Comments/view.ctp:80
+msgid "Comment Id"
+msgstr "评论ID"
+
+#: View/Comments/admin_view.ctp:81 View/Comments/view.ctp:81
+msgid "Foreign Key"
+msgstr "FK"
+
+#: View/Comments/admin_view.ctp:82 View/Comments/view.ctp:82
+msgid "User Id"
+msgstr "用户ID"
+
+#: View/Comments/admin_view.ctp:109 View/Comments/index.ctp:70
+#: View/Comments/view.ctp:109 View/Elements/comments/flat/item.ctp:14
+#: View/Elements/comments/threaded/item.ctp:14
+#: View/Elements/comments/tree/item.ctp:14
+msgid "View"
+msgstr "查看"
+
+#: View/Comments/admin_view.ctp:110 View/Comments/index.ctp:71
+#: View/Comments/view.ctp:110
+msgid "Edit"
+msgstr "编辑"
+
+#: View/Comments/admin_view.ctp:120 View/Comments/view.ctp:120
+msgid "New Child Comment"
+msgstr "添加评论"
+
+#: View/Comments/index.ctp:17
+msgid ""
+"Page %page% of %pages%, showing %current% records out of %count% total, "
+"starting on record %start%, ending on %end%"
+msgstr "共%pages%页,第%page%页"
+
+#: View/Comments/index.ctp:79
+msgid "previous"
+msgstr "上页"
+
+#: View/Comments/index.ctp:81
+msgid "next"
+msgstr "下页"
+
+#: View/Elements/comments/finder.ctp:12
+msgid "Filter comments"
+msgstr "筛选评论"
+
+#: View/Elements/comments/finder.ctp:21 View/Elements/comments/finder.ctp:31
+msgid "...select..."
+msgstr "-选择-"
+
+#: View/Elements/comments/finder.ctp:23
+msgid "Not Approved"
+msgstr "未审核"
+
+#: View/Elements/comments/finder.ctp:29
+msgid "spam state"
+msgstr "垃圾评论"
+
+#: View/Elements/comments/finder.ctp:33
+msgid "Clean"
+msgstr "Clean"
+
+#: View/Elements/comments/finder.ctp:34
+msgid "Ham"
+msgstr "Ham"
+
+#: View/Elements/comments/finder.ctp:35
+msgid "Manual Spam"
+msgstr "Manual Spam"
+
+#: View/Elements/comments/finder.ctp:36
+msgid "Spam"
+msgstr "Spam"
+
+#: View/Elements/comments/flat/form.ctp:31
+#: View/Elements/comments/threaded/form.ctp:38
+#: View/Elements/comments/tree/form.ctp:31
+msgid "This field cannot be left blank"
+msgstr "该字段不能为空"
+
+#: View/Elements/comments/flat/form.ctp:32
+#: View/Elements/comments/threaded/form.ctp:39
+#: View/Elements/comments/tree/form.ctp:32
+#, php-format
+msgid "You can use only headings from %s to %s"
+msgstr "标题长度为6至10字"
+
+#: View/Elements/comments/flat/form.ctp:42
+#: View/Elements/comments/flat/form.ctp:44
+#: View/Elements/comments/threaded/form.ctp:49
+#: View/Elements/comments/threaded/form.ctp:51
+#: View/Elements/comments/tree/form.ctp:42
+#: View/Elements/comments/tree/form.ctp:44
+msgid "Submit"
+msgstr "提交"
+
+#: View/Elements/comments/flat/item.ctp:19
+#: View/Elements/comments/threaded/item.ctp:19
+#: View/Elements/comments/tree/item.ctp:19
+msgid "Quote"
+msgstr "引用"
+
+#: View/Elements/comments/flat/item.ctp:22
+#: View/Elements/comments/threaded/item.ctp:22
+#: View/Elements/comments/tree/item.ctp:22
+msgid "Publish"
+msgstr "发布"
+
+#: View/Elements/comments/flat/item.ctp:24
+#: View/Elements/comments/threaded/item.ctp:24
+#: View/Elements/comments/tree/item.ctp:24
+msgid "Unpublish"
+msgstr "撤回"
+
+#: View/Elements/comments/flat/item.ctp:30
+#: View/Elements/comments/threaded/item.ctp:30
+#: View/Elements/comments/tree/item.ctp:30
+msgid "Anonymouse"
+msgstr "匿名"
+
+#: View/Elements/comments/flat/item.ctp:40
+#: View/Elements/comments/threaded/item.ctp:40
+#: View/Elements/comments/tree/item.ctp:40
+msgid "posted"
+msgstr "发表于"
+
+#: View/Elements/comments/flat/main.ctp:26
+#: View/Elements/comments/threaded/main.ctp:26
+#: View/Elements/comments/tree/main.ctp:25
+msgid "If you want to post comments, you need to login first."
+msgstr "如果要发表评论请先登录"
+
+#: View/Elements/comments/flat/main.ctp:27
+#: View/Elements/comments/threaded/main.ctp:27
+#: View/Elements/comments/tree/main.ctp:26
+msgid "login"
+msgstr "登录"
+
+#: View/Elements/comments/flat/main.ctp:45
+#: View/Elements/comments/threaded/main.ctp:48
+#: View/Elements/comments/tree/main.ctp:47
+msgid "Add New Comment"
+msgstr "添加评论"
+
+#: View/Elements/comments/threaded/form.ctp:28
+msgid "Comment Title"
+msgstr "评论标题"
+
+#: View/Elements/comments/threaded/form.ctp:34
+msgid "Comment Body"
+msgstr "评论内容"
+
+#~ msgid "Filter spam comments"
+#~ msgstr "Filter spam comments"
+
+#~ msgid "Filter good comments"
+#~ msgstr "Filter good comments"
+
+#~ msgid "Mark as ham"
+#~ msgstr "Mark as ham"
+
+#~ msgid "Mark as spam"
+#~ msgstr "Mark as spam"
+
+#~ msgid "Select..."
+#~ msgstr "-选择-"
+
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgid "Disapprove"
+#~ msgstr "屏蔽"
+
+#~ msgid "Add comment"
+#~ msgstr "添加评论"
+
+#~ msgid "ADD COMMENT"
+#~ msgstr "添加评论"
+
+#~ msgid "Most Recent"
+#~ msgstr "最新在前"
+
+#~ msgid "Oldest"
+#~ msgstr "最老在前"

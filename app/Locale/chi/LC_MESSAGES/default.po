@@ -1,0 +1,4582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: easy_projects\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-23 22:16+0800\n"
+"PO-Revision-Date: 2012-09-23 22:23+0800\n"
+"Last-Translator: wangshijun <wangshijun2010@gmail.com>\n"
+"Language-Team: tomato <wangshijun2010@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;__d\n"
+"X-Poedit-Basepath: E:/Documents/GitHub/easycms/app\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Controller/AuthsController.php:86
+msgid "Aco tree is rebuilt successfully!"
+msgstr "ACO树重建成功"
+
+#: Controller/AuthsController.php:167
+msgid "Aro tree is rebuilt successfully!"
+msgstr "ARO树重建成功"
+
+#: Controller/AuthsController.php:206
+msgid "Permissions are intialized successfully!"
+msgstr "权限初始化成功"
+
+#: Controller/BuildingBlocksController.php:77
+#: Controller/BuildingBlocksController.php:142
+#: Controller/BuildingBlocksController.php:170
+msgid "Invalid building block"
+msgstr "无效的单元"
+
+#: Controller/BuildingBlocksController.php:118
+#: Controller/BuildingBlocksController.php:147
+msgid "The building block has been saved"
+msgstr "单元信息保存成功"
+
+#: Controller/BuildingBlocksController.php:121
+#: Controller/BuildingBlocksController.php:150
+msgid "The building block could not be saved. Please, try again."
+msgstr "抱歉, 单元信息保存失败, 请重试"
+
+#: Controller/BuildingBlocksController.php:176
+msgid "Building block deleted"
+msgstr "单元删除成功"
+
+#: Controller/BuildingBlocksController.php:180
+msgid "Building block was not deleted"
+msgstr "单元删除失败"
+
+#: Controller/BuildingResidentsController.php:90
+#: Controller/BuildingResidentsController.php:144
+#: Controller/BuildingResidentsController.php:177
+msgid "Invalid building resident"
+msgstr "无效的居民"
+
+#: Controller/BuildingResidentsController.php:107
+#: Controller/BuildingResidentsController.php:149
+msgid "The building resident has been saved"
+msgstr "居民信息保存成功"
+
+#: Controller/BuildingResidentsController.php:110
+#: Controller/BuildingResidentsController.php:152
+msgid "The building resident could not be saved. Please, try again."
+msgstr "抱歉,居民信息保存失败,请重试"
+
+#: Controller/BuildingResidentsController.php:183
+msgid "Building resident deleted"
+msgstr "居民信息删除成功"
+
+#: Controller/BuildingResidentsController.php:187
+msgid "Building resident was not deleted"
+msgstr "居民信息删除失败"
+
+#: Controller/BuildingRoomsController.php:61
+#: Controller/BuildingRoomsController.php:95
+#: Controller/BuildingRoomsController.php:126
+msgid "Invalid building room"
+msgstr "无效的房间"
+
+#: Controller/BuildingRoomsController.php:75
+#: Controller/BuildingRoomsController.php:100
+msgid "The building room has been saved"
+msgstr "房间保存成功"
+
+#: Controller/BuildingRoomsController.php:78
+#: Controller/BuildingRoomsController.php:103
+msgid "The building room could not be saved. Please, try again."
+msgstr "抱歉,房间无法保存,请重试"
+
+#: Controller/BuildingRoomsController.php:132
+msgid "Building room deleted"
+msgstr "房间删除成功"
+
+#: Controller/BuildingRoomsController.php:136
+msgid "Building room was not deleted"
+msgstr "房间删除失败"
+
+#: Controller/BuildingsController.php:49
+#: Controller/BuildingsController.php:118
+#: Controller/BuildingsController.php:147
+msgid "Invalid building"
+msgstr "无效的楼栋"
+
+#: Controller/BuildingsController.php:100
+#: Controller/BuildingsController.php:123
+msgid "The building has been saved"
+msgstr "楼栋保存成功"
+
+#: Controller/BuildingsController.php:103
+#: Controller/BuildingsController.php:126
+msgid "The building could not be saved. Please, try again."
+msgstr "抱歉,楼栋无法保存,请重试"
+
+#: Controller/BuildingsController.php:153
+msgid "Building deleted"
+msgstr "楼栋删除成功"
+
+#: Controller/BuildingsController.php:157
+msgid "Building was not deleted"
+msgstr "楼栋删除失败"
+
+#: Controller/CategoriesController.php:110
+#: Controller/CategoriesController.php:149
+#: Controller/CategoriesController.php:176
+msgid "Invalid category"
+msgstr "无效的类目"
+
+#: Controller/CategoriesController.php:129
+#: Controller/CategoriesController.php:154
+msgid "The category has been saved"
+msgstr "类目保存成功"
+
+#: Controller/CategoriesController.php:132
+#: Controller/CategoriesController.php:157
+msgid "The category could not be saved. Please, try again."
+msgstr "类目保存失败,请重试"
+
+#: Controller/CategoriesController.php:184
+msgid "Category deleted"
+msgstr "类目删除成功"
+
+#: Controller/CategoriesController.php:188
+msgid "Category was not deleted"
+msgstr "类目删除失败"
+
+#: Controller/ConfigsController.php:47
+msgid "Invalid config"
+msgstr "无效的配置"
+
+#: Controller/ConfigsController.php:52
+msgid "The config has been saved"
+msgstr "配置保存成功"
+
+#: Controller/ConfigsController.php:55
+msgid "The config could not be saved. Please, try again."
+msgstr "配置保存失败"
+
+#: Controller/DownloadsController.php:61 Controller/DownloadsController.php:95
+msgid "The download has been saved"
+msgstr "下载资源保存成功"
+
+#: Controller/DownloadsController.php:64 Controller/DownloadsController.php:98
+msgid "The download could not be saved. Please, try again."
+msgstr "抱歉,下载资源保存失败,请重试"
+
+#: Controller/DownloadsController.php:82
+#: Controller/DownloadsController.php:122
+#: Controller/DownloadsController.php:146
+msgid "Invalid download"
+msgstr "无效的下载资源"
+
+#: Controller/DownloadsController.php:128
+msgid "Download deleted"
+msgstr "下载资源删除成功"
+
+#: Controller/DownloadsController.php:132
+msgid "Download was not deleted"
+msgstr "下载资源删除失败"
+
+#: Controller/GroupsController.php:56 Controller/GroupsController.php:94
+#: Controller/GroupsController.php:121 Controller/GroupsController.php:191
+msgid "Invalid group"
+msgstr "无效的角色"
+
+#: Controller/GroupsController.php:74 Controller/GroupsController.php:99
+msgid "The group has been saved"
+msgstr "角色保存成功"
+
+#: Controller/GroupsController.php:77 Controller/GroupsController.php:102
+msgid "The group could not be saved. Please, try again."
+msgstr "角色保存失败, 请重试"
+
+#: Controller/GroupsController.php:127
+msgid "Group deleted"
+msgstr "角色删除成功"
+
+#: Controller/GroupsController.php:131
+msgid "Group was not deleted"
+msgstr "角色删除失败"
+
+#: Controller/GroupsController.php:154 View/Groups/admin_permission.ctp:18
+#: View/Groups/admin_permission.ctp:22 View/Groups/admin_permission.ctp:56
+#: View/Groups/admin_permission.ctp:57 View/Groups/admin_permission.ctp:61
+msgid "Allow"
+msgstr "允许"
+
+#: Controller/GroupsController.php:155 View/Groups/admin_permission.ctp:18
+#: View/Groups/admin_permission.ctp:22 View/Groups/admin_permission.ctp:58
+#: View/Groups/admin_permission.ctp:59 View/Groups/admin_permission.ctp:60
+msgid "Deny"
+msgstr "拒绝"
+
+#: Controller/GroupsController.php:161
+msgid "You cannot change permissions that you donot have access to"
+msgstr "抱歉,您不能将您没有的权限授权给别人"
+
+#: Controller/GroupsController.php:169
+msgid "Group permissions saved"
+msgstr "角色权限更新成功"
+
+#: Controller/GroupsController.php:172
+msgid "Group permissions cannot be saved, please try again"
+msgstr "角色权限更新失败, 请重试"
+
+#: Controller/GroupsController.php:175
+msgid "Invalid permission action"
+msgstr "无效权限操作"
+
+#: Controller/GroupsController.php:179
+msgid "Invalid request"
+msgstr "无效请求"
+
+#: Controller/LinksController.php:50 Controller/LinksController.php:82
+#: Controller/LinksController.php:111
+msgid "Invalid link"
+msgstr "无效的连接"
+
+#: Controller/LinksController.php:64 Controller/LinksController.php:87
+msgid "The link has been saved"
+msgstr "友情链接保存成功"
+
+#: Controller/LinksController.php:67 Controller/LinksController.php:90
+msgid "The link could not be saved. Please, try again."
+msgstr "友情链接无法保存"
+
+#: Controller/LinksController.php:117
+msgid "Link deleted"
+msgstr "友情链接删除成功"
+
+#: Controller/LinksController.php:121
+msgid "Link was not deleted"
+msgstr "友情链接删除失败"
+
+#: Controller/MiscPostsController.php:44 Controller/PagesController.php:98
+msgid "Invalid misc post"
+msgstr "无效的文案"
+
+#: Controller/MiscPostsController.php:56
+msgid "The content has been saved"
+msgstr "恭喜, 文案保存成功"
+
+#: Controller/MiscPostsController.php:61
+msgid "The content could not be saved. Please, try again."
+msgstr "抱歉, 文案保存失败, 请重试"
+
+#: Controller/PagesController.php:150
+msgid "Research"
+msgstr "生化快讯"
+
+#: Controller/PagesController.php:153
+msgid "Staff"
+msgstr "学者·名师"
+
+#: Controller/PagesController.php:157
+msgid "Image Articles"
+msgstr "图片新闻"
+
+#: Controller/PostsController.php:95 Controller/PostsController.php:119
+msgid "The post has been saved"
+msgstr "文章保存成功"
+
+#: Controller/PostsController.php:98 Controller/PostsController.php:122
+msgid "The post could not be saved. Please, try again."
+msgstr "文章保存失败, 请重试"
+
+#: Controller/PostsController.php:114 Controller/PostsController.php:144
+#: Controller/PostsController.php:167
+msgid "Invalid post"
+msgstr "无效的文章"
+
+#: Controller/PostsController.php:152
+msgid "Post deleted"
+msgstr "文章删除成功"
+
+#: Controller/PostsController.php:156
+msgid "Post was not deleted"
+msgstr "文章删除失败"
+
+#: Controller/TenantsController.php:48 Controller/TenantsController.php:80
+#: Controller/TenantsController.php:109
+msgid "Invalid tenant"
+msgstr "无效的租户"
+
+#: Controller/TenantsController.php:62 Controller/TenantsController.php:85
+msgid "The tenant has been saved"
+msgstr "租户保存成功"
+
+#: Controller/TenantsController.php:65 Controller/TenantsController.php:88
+msgid "The tenant could not be saved. Please, try again."
+msgstr "租户保存失败,请重试"
+
+#: Controller/TenantsController.php:115
+msgid "Tenant deleted"
+msgstr "租户删除成功"
+
+#: Controller/TenantsController.php:119
+msgid "Tenant was not deleted"
+msgstr "租户删除失败"
+
+#: Controller/ToolkitController.php:50
+msgid "nothing to do"
+msgstr "没有进行任何操作"
+
+#: Controller/UsersController.php:67 Controller/UsersController.php:107
+#: Controller/UsersController.php:137 Controller/UsersController.php:162
+#: Controller/UsersController.php:191 Controller/UsersController.php:215
+#: Controller/UsersController.php:245
+msgid "Invalid user"
+msgstr "无效的用户"
+
+#: Controller/UsersController.php:84 Controller/UsersController.php:111
+msgid "The user has been saved"
+msgstr "用户保存成功"
+
+#: Controller/UsersController.php:87 Controller/UsersController.php:114
+msgid "The user could not be saved. Please, try again."
+msgstr "用户保存失败,请重试"
+
+#: Controller/UsersController.php:143
+msgid "User deleted"
+msgstr "用户删除成功"
+
+#: Controller/UsersController.php:147
+msgid "User was not deleted"
+msgstr "用户删除失败"
+
+#: Controller/UsersController.php:168
+msgid "Your old password is not correct!"
+msgstr "您输入的旧密码不正确"
+
+#: Controller/UsersController.php:170
+msgid "Your new passwords are not the same!"
+msgstr "新密码和确认密码不一致"
+
+#: Controller/UsersController.php:174
+msgid ""
+"Congratulations, your passwords are changed, Please login with the new one!"
+msgstr "恭喜,密码修改成功,请重新登录"
+
+#: Controller/UsersController.php:178
+msgid "Sorry, your password can not be saved, please try again!"
+msgstr "抱歉,密码更新失败,请重试"
+
+#: Controller/UsersController.php:196
+msgid "The profile has been saved"
+msgstr "资料保存成功"
+
+#: Controller/UsersController.php:199
+msgid "The profile could not be saved. Please, try again."
+msgstr "抱歉,资料保存失败,请重试"
+
+#: Controller/UsersController.php:225
+msgid "The avatar has been saved"
+msgstr "头像保存成功"
+
+#: Controller/UsersController.php:228
+msgid "The avatar could not be saved. Please, try again."
+msgstr "头像保存失败,请重试"
+
+#: Controller/UsersController.php:256
+msgid "The user password has been reset"
+msgstr "用户密码重置成功"
+
+#: Controller/UsersController.php:258
+msgid "The user password could not be reset. Please, try again."
+msgstr "用户密码重置失败,请重试"
+
+#: Controller/UsersController.php:283
+msgid "You are logged in!"
+msgstr "您已经登录"
+
+#: Controller/UsersController.php:304
+msgid "Your username or password was incorrect."
+msgstr "你提供的用户名或密码不正确"
+
+#: Controller/UsersController.php:315
+msgid "Good-Bye"
+msgstr "您已经注销"
+
+#: Controller/WidgetsController.php:29 Controller/WidgetsController.php:60
+#: Controller/WidgetsController.php:86
+msgid "Invalid widget"
+msgstr "无效的部件"
+
+#: Controller/WidgetsController.php:43 Controller/WidgetsController.php:64
+msgid "The widget has been saved"
+msgstr "部件保存成功"
+
+#: Controller/WidgetsController.php:46 Controller/WidgetsController.php:67
+msgid "The widget could not be saved. Please, try again."
+msgstr "部件保存失败"
+
+#: Controller/WidgetsController.php:89
+msgid "Widget deleted"
+msgstr "部件删除成功"
+
+#: Controller/WidgetsController.php:92
+msgid "Widget was not deleted"
+msgstr "部件删除失败"
+
+#: Locale/packages.php:2
+msgid "Article Categories"
+msgstr "新闻栏目"
+
+#: Locale/packages.php:3
+msgid "Blog"
+msgstr "内容管理"
+
+#: Locale/packages.php:4
+msgid "List Article Categories"
+msgstr "栏目管理"
+
+#: Locale/packages.php:5
+msgid "Tree Article Category"
+msgstr "栏目管理"
+
+#: Locale/packages.php:6
+msgid "Children Article Category"
+msgstr "子栏目"
+
+#: Locale/packages.php:7
+msgid "View Article Category"
+msgstr "查看栏目"
+
+#: Locale/packages.php:8
+msgid "Add Article Category"
+msgstr "添加栏目"
+
+#: Locale/packages.php:9
+msgid "Edit Article Category"
+msgstr "编辑栏目"
+
+#: Locale/packages.php:10
+msgid "Delete Article Category"
+msgstr "删除栏目"
+
+#: Locale/packages.php:11 Locale/packages.php:12
+msgid "Toggle Article Category"
+msgstr "栏目状态"
+
+#: Locale/packages.php:13 Locale/packages.php:14
+msgid "Search Article Category"
+msgstr "搜索栏目"
+
+#: Locale/packages.php:15 Locale/packages.php:16
+msgid "Recycle Bin Article Category"
+msgstr "栏目回收站"
+
+#: Locale/packages.php:17 Locale/packages.php:18
+msgid "Recycle Article Category"
+msgstr "回收栏目"
+
+#: Locale/packages.php:19 Locale/packages.php:20
+msgid "Drop Article Category"
+msgstr "永久删除栏目"
+
+#: Locale/packages.php:21
+msgid "Articles"
+msgstr "新闻"
+
+#: Locale/packages.php:22
+msgid "List Articles"
+msgstr "新闻管理"
+
+#: Locale/packages.php:23 Locale/packages.php:27
+msgid "View Article"
+msgstr "查看新闻"
+
+#: Locale/packages.php:24 tmp/translation_fixtures.php:9
+#: View/Users/admin_dashboard.ctp:13
+msgid "Add Article"
+msgstr "添加新闻"
+
+#: Locale/packages.php:25 tmp/translation_fixtures.php:10
+msgid "Edit Article"
+msgstr "编辑新闻"
+
+#: Locale/packages.php:26
+msgid "Delete Article"
+msgstr "删除新闻"
+
+#: Locale/packages.php:28
+msgid "List Article"
+msgstr "新闻列表"
+
+#: Locale/packages.php:29
+msgid "Callback Comments Init Type Article"
+msgstr ""
+
+#: Locale/packages.php:30 Locale/packages.php:31
+msgid "Toggle Article"
+msgstr "新闻状态"
+
+#: Locale/packages.php:32 Locale/packages.php:33
+msgid "Search Article"
+msgstr "新闻搜索"
+
+#: Locale/packages.php:34 Locale/packages.php:35
+msgid "Recycle Bin Article"
+msgstr "新闻回收站"
+
+#: Locale/packages.php:36 Locale/packages.php:37
+msgid "Recycle Article"
+msgstr "回收新闻"
+
+#: Locale/packages.php:38 Locale/packages.php:39
+msgid "Drop Article"
+msgstr "永久删除新闻"
+
+#: Locale/packages.php:40 View/Auths/admin_index.ctp:2
+msgid "Auths"
+msgstr "权限"
+
+#: Locale/packages.php:41 View/Widgets/admin_view.ctp:12
+msgid "System"
+msgstr "系统管理"
+
+#: Locale/packages.php:42
+msgid "List Auths"
+msgstr "权限管理"
+
+#: Locale/packages.php:43
+msgid "Acos Auth"
+msgstr "重建ACO"
+
+#: Locale/packages.php:44
+msgid "Aros Auth"
+msgstr "重建ARO"
+
+#: Locale/packages.php:45
+msgid "Permissions Auth"
+msgstr "重建权限"
+
+#: Locale/packages.php:46 View/BuildingBlocks/admin_index.ctp:2
+#: View/BuildingBlocks/admin_recycle_bin.ctp:2
+msgid "Building Blocks"
+msgstr "单元管理"
+
+#: Locale/packages.php:47 Locale/packages.php:95
+#: View/Buildings/admin_index.ctp:3 View/Buildings/admin_recycle_bin.ctp:2
+msgid "Buildings"
+msgstr "楼栋管理"
+
+#: Locale/packages.php:48
+msgid "List Building Blocks"
+msgstr "单元管理"
+
+#: Locale/packages.php:49
+msgid "View Building Block"
+msgstr "查看单元"
+
+#: Locale/packages.php:50 View/BuildingBlocks/admin_add.ctp:4
+#: View/Buildings/admin_index.ctp:35 View/Users/admin_dashboard.ctp:11
+msgid "Add Building Block"
+msgstr "添加单元"
+
+#: Locale/packages.php:51 View/BuildingBlocks/admin_edit.ctp:4
+msgid "Edit Building Block"
+msgstr "编辑单元"
+
+#: Locale/packages.php:52
+msgid "Delete Building Block"
+msgstr "删除单元"
+
+#: Locale/packages.php:53 Locale/packages.php:54
+msgid "Toggle Building Block"
+msgstr "单元状态"
+
+#: Locale/packages.php:55 Locale/packages.php:56
+msgid "Search Building Block"
+msgstr "搜索单元"
+
+#: Locale/packages.php:57 Locale/packages.php:58
+msgid "Recycle Bin Building Block"
+msgstr "单元回收站"
+
+#: Locale/packages.php:59 Locale/packages.php:60
+msgid "Recycle Building Block"
+msgstr "回收单元"
+
+#: Locale/packages.php:61 Locale/packages.php:62
+msgid "Drop Building Block"
+msgstr "删除单元"
+
+#: Locale/packages.php:63 View/BuildingResidents/admin_index.ctp:2
+#: View/BuildingResidents/admin_recycle_bin.ctp:2
+msgid "Building Residents"
+msgstr "居民管理"
+
+#: Locale/packages.php:64
+msgid "List Building Residents"
+msgstr "居民管理"
+
+#: Locale/packages.php:65 View/Elements/building_block.ctp:13
+msgid "View Building Resident"
+msgstr "查看居民"
+
+#: Locale/packages.php:66 View/BuildingBlocks/admin_index.ctp:43
+#: View/BuildingResidents/admin_add.ctp:5 View/Users/admin_dashboard.ctp:12
+msgid "Add Building Resident"
+msgstr "添加居民"
+
+#: Locale/packages.php:67 View/BuildingResidents/admin_edit.ctp:4
+msgid "Edit Building Resident"
+msgstr "编辑居民管理"
+
+#: Locale/packages.php:68
+msgid "Delete Building Resident"
+msgstr "删除居民管理"
+
+#: Locale/packages.php:69 Locale/packages.php:70
+msgid "Toggle Building Resident"
+msgstr "居民状态"
+
+#: Locale/packages.php:71 Locale/packages.php:72
+msgid "Search Building Resident"
+msgstr "搜索居民"
+
+#: Locale/packages.php:73 Locale/packages.php:74
+msgid "Recycle Bin Building Resident"
+msgstr "居民回收站"
+
+#: Locale/packages.php:75 Locale/packages.php:76
+msgid "Recycle Building Resident"
+msgstr "回收居民"
+
+#: Locale/packages.php:77 Locale/packages.php:78
+msgid "Drop Building Resident"
+msgstr "永久删除居民"
+
+#: Locale/packages.php:79 View/BuildingRooms/admin_index.ctp:2
+msgid "Building Rooms"
+msgstr "房间管理"
+
+#: Locale/packages.php:80
+msgid "List Building Rooms"
+msgstr "房间列表"
+
+#: Locale/packages.php:81
+msgid "View Building Room"
+msgstr "查看房间"
+
+#: Locale/packages.php:82 View/BuildingRooms/admin_add.ctp:4
+msgid "Add Building Room"
+msgstr "添加房间"
+
+#: Locale/packages.php:83 View/BuildingRooms/admin_edit.ctp:4
+msgid "Edit Building Room"
+msgstr "编辑房间"
+
+#: Locale/packages.php:84
+msgid "Delete Building Room"
+msgstr "删除房间"
+
+#: Locale/packages.php:85 Locale/packages.php:86
+msgid "Toggle Building Room"
+msgstr "房间状态"
+
+#: Locale/packages.php:87 Locale/packages.php:88
+msgid "Search Building Room"
+msgstr "搜索房间"
+
+#: Locale/packages.php:89 Locale/packages.php:90
+msgid "Recycle Bin Building Room"
+msgstr "房间回收站"
+
+#: Locale/packages.php:91 Locale/packages.php:92
+msgid "Recycle Building Room"
+msgstr "回收房间"
+
+#: Locale/packages.php:93 Locale/packages.php:94
+msgid "Drop Building Room"
+msgstr "删除房间"
+
+#: Locale/packages.php:96
+msgid "List Buildings"
+msgstr "楼栋管理"
+
+#: Locale/packages.php:97
+msgid "View Building"
+msgstr "查看楼栋"
+
+#: Locale/packages.php:98 tmp/translation_fixtures.php:29
+#: View/Buildings/admin_add.ctp:4 View/Users/admin_dashboard.ctp:10
+msgid "Add Building"
+msgstr "添加楼栋"
+
+#: Locale/packages.php:99 tmp/translation_fixtures.php:30
+#: View/Buildings/admin_edit.ctp:4
+msgid "Edit Building"
+msgstr "编辑楼栋"
+
+#: Locale/packages.php:100
+msgid "Delete Building"
+msgstr "删除楼栋"
+
+#: Locale/packages.php:101 Locale/packages.php:102
+msgid "Toggle Building"
+msgstr "楼栋状态"
+
+#: Locale/packages.php:103 Locale/packages.php:104
+msgid "Search Building"
+msgstr "搜索楼栋"
+
+#: Locale/packages.php:105 Locale/packages.php:106
+msgid "Recycle Bin Building"
+msgstr "楼栋回收站"
+
+#: Locale/packages.php:107 Locale/packages.php:108
+msgid "Recycle Building"
+msgstr "回收楼栋"
+
+#: Locale/packages.php:109 Locale/packages.php:110
+msgid "Drop Building"
+msgstr "永久删除楼栋"
+
+#: Locale/packages.php:111
+msgid "Categories"
+msgstr "分类"
+
+#: Locale/packages.php:112
+msgid "List Categories"
+msgstr "分类管理"
+
+#: Locale/packages.php:113
+msgid "Tree Category"
+msgstr "类目管理"
+
+#: Locale/packages.php:114
+msgid "Children Category"
+msgstr "子分类"
+
+#: Locale/packages.php:115
+msgid "View Category"
+msgstr "查看分类"
+
+#: Locale/packages.php:116 tmp/translation_fixtures.php:69
+msgid "Add Category"
+msgstr "添加分类"
+
+#: Locale/packages.php:117 tmp/translation_fixtures.php:70
+msgid "Edit Category"
+msgstr "编辑分类"
+
+#: Locale/packages.php:118
+msgid "Delete Category"
+msgstr "删除分类"
+
+#: Locale/packages.php:119 Locale/packages.php:120
+msgid "Toggle Category"
+msgstr "分类状态"
+
+#: Locale/packages.php:121 Locale/packages.php:122
+msgid "Search Category"
+msgstr "搜索分类"
+
+#: Locale/packages.php:123 Locale/packages.php:124
+msgid "Recycle Bin Category"
+msgstr "分类回收站"
+
+#: Locale/packages.php:125 Locale/packages.php:126
+msgid "Recycle Category"
+msgstr "回收分类"
+
+#: Locale/packages.php:127 Locale/packages.php:128
+msgid "Drop Category"
+msgstr "永久删除分类"
+
+#: Locale/packages.php:129
+msgid "Chapters"
+msgstr "章节"
+
+#: Locale/packages.php:130
+msgid "Course"
+msgstr "在线学习"
+
+#: Locale/packages.php:131
+msgid "List Chapters"
+msgstr "章节管理"
+
+#: Locale/packages.php:132
+msgid "Tree Chapter"
+msgstr "章节管理"
+
+#: Locale/packages.php:133
+msgid "Children Chapter"
+msgstr "子章节"
+
+#: Locale/packages.php:134
+msgid "View Chapter"
+msgstr "查看章节"
+
+#: Locale/packages.php:135 tmp/translation_fixtures.php:79
+msgid "Add Chapter"
+msgstr "添加章节"
+
+#: Locale/packages.php:136 tmp/translation_fixtures.php:80
+msgid "Edit Chapter"
+msgstr "编辑章节"
+
+#: Locale/packages.php:137
+msgid "Delete Chapter"
+msgstr "删除章节"
+
+#: Locale/packages.php:138 Locale/packages.php:139
+msgid "Toggle Chapter"
+msgstr "章节状态"
+
+#: Locale/packages.php:140 Locale/packages.php:141
+msgid "Search Chapter"
+msgstr "搜索章节"
+
+#: Locale/packages.php:142 Locale/packages.php:143
+msgid "Recycle Bin Chapter"
+msgstr "章节回收站"
+
+#: Locale/packages.php:144 Locale/packages.php:145
+msgid "Recycle Chapter"
+msgstr "回收章节"
+
+#: Locale/packages.php:146 Locale/packages.php:147
+msgid "Drop Chapter"
+msgstr "永久删除章节"
+
+#: Locale/packages.php:148
+msgid "Ckfinders"
+msgstr "资源管理器"
+
+#: Locale/packages.php:149
+msgid "Media"
+msgstr "媒体管理"
+
+#: Locale/packages.php:150
+msgid "List Ckfinders"
+msgstr "资源管理器"
+
+#: Locale/packages.php:151 View/Configs/admin_index.ctp:2
+msgid "Configs"
+msgstr "配置管理"
+
+#: Locale/packages.php:152
+msgid "List Configs"
+msgstr "配置管理"
+
+#: Locale/packages.php:153 tmp/translation_fixtures.php:90
+#: View/Configs/admin_edit.ctp:4
+msgid "Edit Config"
+msgstr "编辑配置"
+
+#: Locale/packages.php:154
+msgid "Download Categories"
+msgstr "资源分类管理"
+
+#: Locale/packages.php:155
+msgid "List Download Categories"
+msgstr "资源分类管理"
+
+#: Locale/packages.php:156
+msgid "Tree Download Category"
+msgstr "资源分类管理"
+
+#: Locale/packages.php:157
+msgid "Children Download Category"
+msgstr "资源子分类"
+
+#: Locale/packages.php:158
+msgid "View Download Category"
+msgstr "查看资源分类"
+
+#: Locale/packages.php:159
+msgid "Add Download Category"
+msgstr "添加资源分类"
+
+#: Locale/packages.php:160
+msgid "Edit Download Category"
+msgstr "编辑资源分类"
+
+#: Locale/packages.php:161
+msgid "Delete Download Category"
+msgstr "删除资源分类"
+
+#: Locale/packages.php:162 Locale/packages.php:163
+msgid "Toggle Download Category"
+msgstr "资源分类状态"
+
+#: Locale/packages.php:164 Locale/packages.php:165
+msgid "Search Download Category"
+msgstr "搜索资源分类"
+
+#: Locale/packages.php:166 Locale/packages.php:167
+msgid "Recycle Bin Download Category"
+msgstr "资源分类回收站"
+
+#: Locale/packages.php:168 Locale/packages.php:169
+msgid "Recycle Download Category"
+msgstr "回收资源分类"
+
+#: Locale/packages.php:170 Locale/packages.php:171
+msgid "Drop Download Category"
+msgstr "永久删除资源分类"
+
+#: Locale/packages.php:172 View/Downloads/admin_index.ctp:2
+#: View/Downloads/admin_recycle_bin.ctp:2
+msgid "Downloads"
+msgstr "下载资源管理"
+
+#: Locale/packages.php:173
+msgid "List Downloads"
+msgstr "下载资源管理"
+
+#: Locale/packages.php:174
+msgid "View Download"
+msgstr "查看下载资源"
+
+#: Locale/packages.php:175 tmp/translation_fixtures.php:99
+#: View/Downloads/admin_add.ctp:4
+msgid "Add Download"
+msgstr "添加下载资源"
+
+#: Locale/packages.php:176 tmp/translation_fixtures.php:100
+#: View/Downloads/admin_edit.ctp:4
+msgid "Edit Download"
+msgstr "编辑下载资源"
+
+#: Locale/packages.php:177
+msgid "Delete Download"
+msgstr "删除下载资源"
+
+#: Locale/packages.php:178
+msgid "Download Download"
+msgstr "下载资源"
+
+#: Locale/packages.php:179
+msgid "List Download"
+msgstr "下载资源列表"
+
+#: Locale/packages.php:180 Locale/packages.php:181
+msgid "Toggle Download"
+msgstr "资源状态"
+
+#: Locale/packages.php:182 Locale/packages.php:183
+msgid "Search Download"
+msgstr "搜索下载资源"
+
+#: Locale/packages.php:184 Locale/packages.php:185
+msgid "Recycle Bin Download"
+msgstr "下载资源回收站"
+
+#: Locale/packages.php:186 Locale/packages.php:187
+msgid "Recycle Download"
+msgstr "回收下载资源"
+
+#: Locale/packages.php:188 Locale/packages.php:189
+msgid "Drop Download"
+msgstr "永久删除下载资源"
+
+#: Locale/packages.php:190
+msgid "Ethnic Groups"
+msgstr "民族管理"
+
+#: Locale/packages.php:191
+msgid "List Ethnic Groups"
+msgstr "民族管理"
+
+#: Locale/packages.php:192
+msgid "Tree Ethnic Group"
+msgstr "树状视图"
+
+#: Locale/packages.php:193
+msgid "Children Ethnic Group"
+msgstr "创建民族"
+
+#: Locale/packages.php:194
+msgid "View Ethnic Group"
+msgstr "查看民族"
+
+#: Locale/packages.php:195
+msgid "Add Ethnic Group"
+msgstr "添加民族"
+
+#: Locale/packages.php:196
+msgid "Edit Ethnic Group"
+msgstr "编辑民族"
+
+#: Locale/packages.php:197
+msgid "Delete Ethnic Group"
+msgstr "删除民族"
+
+#: Locale/packages.php:198 Locale/packages.php:199
+msgid "Toggle Ethnic Group"
+msgstr "民族状态"
+
+#: Locale/packages.php:200 Locale/packages.php:201
+msgid "Search Ethnic Group"
+msgstr "搜索民族"
+
+#: Locale/packages.php:202 Locale/packages.php:203
+msgid "Recycle Bin Ethnic Group"
+msgstr "民族回收站"
+
+#: Locale/packages.php:204 Locale/packages.php:205
+msgid "Recycle Ethnic Group"
+msgstr "回收民族"
+
+#: Locale/packages.php:206 Locale/packages.php:207
+msgid "Drop Ethnic Group"
+msgstr "永久删除民族"
+
+#: Locale/packages.php:208
+msgid "Exercises"
+msgstr "习题训练"
+
+#: Locale/packages.php:209
+msgid "List Exercises"
+msgstr "习题训练管理"
+
+#: Locale/packages.php:210 Locale/packages.php:214
+msgid "View Exercise"
+msgstr "查看习题"
+
+#: Locale/packages.php:211 tmp/translation_fixtures.php:129
+msgid "Add Exercise"
+msgstr "添加习题"
+
+#: Locale/packages.php:212 tmp/translation_fixtures.php:130
+msgid "Edit Exercise"
+msgstr "编辑习题"
+
+#: Locale/packages.php:213
+msgid "Delete Exercise"
+msgstr "删除习题"
+
+#: Locale/packages.php:215
+msgid "List Exercise"
+msgstr "习题训练管理"
+
+#: Locale/packages.php:216
+msgid "Callback Comments Init Type Exercise"
+msgstr ""
+
+#: Locale/packages.php:217 Locale/packages.php:218
+msgid "Toggle Exercise"
+msgstr "习题训练状态"
+
+#: Locale/packages.php:219 Locale/packages.php:220
+msgid "Search Exercise"
+msgstr "搜索习题"
+
+#: Locale/packages.php:221 Locale/packages.php:222
+msgid "Recycle Bin Exercise"
+msgstr "习题回收站"
+
+#: Locale/packages.php:223 Locale/packages.php:224
+msgid "Recycle Exercise"
+msgstr "回收习题"
+
+#: Locale/packages.php:225 Locale/packages.php:226
+msgid "Drop Exercise"
+msgstr "永久删除习题"
+
+#: Locale/packages.php:227 View/Groups/admin_index.ctp:2
+#: View/Groups/admin_recycle_bin.ctp:2
+msgid "Groups"
+msgstr "角色"
+
+#: Locale/packages.php:228
+msgid "Account"
+msgstr "账号管理"
+
+#: Locale/packages.php:229
+msgid "List Groups"
+msgstr "角色管理"
+
+#: Locale/packages.php:230
+msgid "Tree Group"
+msgstr "角色管理"
+
+#: Locale/packages.php:231
+msgid "View Group"
+msgstr "查看角色"
+
+#: Locale/packages.php:232 tmp/translation_fixtures.php:139
+#: View/Groups/admin_add.ctp:4
+msgid "Add Group"
+msgstr "添加角色"
+
+#: Locale/packages.php:233 tmp/translation_fixtures.php:140
+#: View/Groups/admin_edit.ctp:4
+msgid "Edit Group"
+msgstr "编辑角色"
+
+#: Locale/packages.php:234
+msgid "Delete Group"
+msgstr "删除角色"
+
+#: Locale/packages.php:235
+msgid "Permission Group"
+msgstr "角色权限管理"
+
+#: Locale/packages.php:236 Locale/packages.php:237
+msgid "Toggle Group"
+msgstr "角色状态"
+
+#: Locale/packages.php:238 Locale/packages.php:239
+msgid "Search Group"
+msgstr "搜索角色"
+
+#: Locale/packages.php:240 Locale/packages.php:241
+msgid "Recycle Bin Group"
+msgstr "角色回收站"
+
+#: Locale/packages.php:242 Locale/packages.php:243
+msgid "Recycle Group"
+msgstr "回收角色"
+
+#: Locale/packages.php:244 Locale/packages.php:245
+msgid "Drop Group"
+msgstr "永久删除角色"
+
+#: Locale/packages.php:246 View/Links/admin_index.ctp:2
+#: View/Links/admin_recycle_bin.ctp:2
+msgid "Links"
+msgstr "友情链接"
+
+#: Locale/packages.php:247
+msgid "List Links"
+msgstr "友情链接管理"
+
+#: Locale/packages.php:248
+msgid "View Link"
+msgstr "查看友情链接"
+
+#: Locale/packages.php:249 tmp/translation_fixtures.php:149
+#: View/Links/admin_add.ctp:4
+msgid "Add Link"
+msgstr "添加友情链接"
+
+#: Locale/packages.php:250 tmp/translation_fixtures.php:150
+#: View/Links/admin_edit.ctp:4
+msgid "Edit Link"
+msgstr "编辑友情链接"
+
+#: Locale/packages.php:251
+msgid "Delete Link"
+msgstr "删除友情链接"
+
+#: Locale/packages.php:252 Locale/packages.php:253
+msgid "Toggle Link"
+msgstr "友情链接状态"
+
+#: Locale/packages.php:254 Locale/packages.php:255
+msgid "Search Link"
+msgstr "搜索友情链接"
+
+#: Locale/packages.php:256 Locale/packages.php:257
+msgid "Recycle Bin Link"
+msgstr "友情链接回收站"
+
+#: Locale/packages.php:258 Locale/packages.php:259
+msgid "Recycle Link"
+msgstr "回收友情链接"
+
+#: Locale/packages.php:260 Locale/packages.php:261
+msgid "Drop Link"
+msgstr "永久删除友情链接"
+
+#: Locale/packages.php:262 View/Logs/admin_index.ctp:10
+msgid "Logs"
+msgstr "日志管理"
+
+#: Locale/packages.php:263
+msgid "List Logs"
+msgstr "日志管理"
+
+#: Locale/packages.php:264
+msgid "Misc Posts"
+msgstr "文案管理"
+
+#: Locale/packages.php:265
+msgid "List Misc Posts"
+msgstr "文案管理"
+
+#: Locale/packages.php:266
+msgid "Edit Misc Post"
+msgstr "编辑文案"
+
+#: Locale/packages.php:267
+msgid "Posts"
+msgstr "文章管理"
+
+#: Locale/packages.php:268
+msgid "List Posts"
+msgstr "文章管理"
+
+#: Locale/packages.php:269 Locale/packages.php:273
+msgid "View Post"
+msgstr "查看文章"
+
+#: Locale/packages.php:270 tmp/translation_fixtures.php:179
+msgid "Add Post"
+msgstr "添加文章"
+
+#: Locale/packages.php:271 tmp/translation_fixtures.php:180
+msgid "Edit Post"
+msgstr "编辑文章"
+
+#: Locale/packages.php:272
+msgid "Delete Post"
+msgstr "删除文章"
+
+#: Locale/packages.php:274
+msgid "List Post"
+msgstr "文章管理"
+
+#: Locale/packages.php:275
+msgid "Callback Comments Init Type Post"
+msgstr ""
+
+#: Locale/packages.php:276 Locale/packages.php:277
+msgid "Toggle Post"
+msgstr "文章状态"
+
+#: Locale/packages.php:278 Locale/packages.php:279
+msgid "Search Post"
+msgstr "搜索文章"
+
+#: Locale/packages.php:280 Locale/packages.php:281
+msgid "Recycle Bin Post"
+msgstr "文章回收站"
+
+#: Locale/packages.php:282 Locale/packages.php:283
+msgid "Recycle Post"
+msgstr "回收文章"
+
+#: Locale/packages.php:284 Locale/packages.php:285
+msgid "Drop Post"
+msgstr "永久删除文章"
+
+#: Locale/packages.php:286 View/Tenants/admin_index.ctp:2
+#: View/Tenants/admin_recycle_bin.ctp:2
+msgid "Tenants"
+msgstr "租户"
+
+#: Locale/packages.php:287
+msgid "List Tenants"
+msgstr "租户管理"
+
+#: Locale/packages.php:288
+msgid "View Tenant"
+msgstr "查看住户"
+
+#: Locale/packages.php:289 tmp/translation_fixtures.php:189
+#: View/Tenants/admin_add.ctp:4
+msgid "Add Tenant"
+msgstr "添加租户"
+
+#: Locale/packages.php:290 tmp/translation_fixtures.php:190
+#: View/Tenants/admin_edit.ctp:4
+msgid "Edit Tenant"
+msgstr "编辑租户"
+
+#: Locale/packages.php:291
+msgid "Delete Tenant"
+msgstr "删除租户"
+
+#: Locale/packages.php:292 Locale/packages.php:293
+msgid "Toggle Tenant"
+msgstr "租户状态"
+
+#: Locale/packages.php:294 Locale/packages.php:295
+msgid "Search Tenant"
+msgstr "搜索租户"
+
+#: Locale/packages.php:296 Locale/packages.php:297
+msgid "Recycle Bin Tenant"
+msgstr "租户回收站"
+
+#: Locale/packages.php:298 Locale/packages.php:299
+msgid "Recycle Tenant"
+msgstr "回收租户"
+
+#: Locale/packages.php:300 Locale/packages.php:301
+msgid "Drop Tenant"
+msgstr "永久删除住"
+
+#: Locale/packages.php:302
+msgid "Terminologies"
+msgstr "名词术语"
+
+#: Locale/packages.php:303
+msgid "List Terminologies"
+msgstr "名词术语管理"
+
+#: Locale/packages.php:304 Locale/packages.php:308
+msgid "View Terminology"
+msgstr "查看名词术语"
+
+#: Locale/packages.php:305 tmp/translation_fixtures.php:199
+msgid "Add Terminology"
+msgstr "添加名词术语"
+
+#: Locale/packages.php:306 tmp/translation_fixtures.php:200
+msgid "Edit Terminology"
+msgstr "编辑名词术语"
+
+#: Locale/packages.php:307
+msgid "Delete Terminology"
+msgstr "删除名词术语"
+
+#: Locale/packages.php:309
+msgid "List Terminology"
+msgstr "名词术语管理"
+
+#: Locale/packages.php:310
+msgid "Callback Comments Init Type Terminology"
+msgstr ""
+
+#: Locale/packages.php:311 Locale/packages.php:312
+msgid "Toggle Terminology"
+msgstr "名词术语状态"
+
+#: Locale/packages.php:313 Locale/packages.php:314
+msgid "Search Terminology"
+msgstr "搜索名词术语"
+
+#: Locale/packages.php:315 Locale/packages.php:316
+msgid "Recycle Bin Terminology"
+msgstr "名词术语回收站"
+
+#: Locale/packages.php:317 Locale/packages.php:318
+msgid "Recycle Terminology"
+msgstr "回收名词术语"
+
+#: Locale/packages.php:319 Locale/packages.php:320
+msgid "Drop Terminology"
+msgstr "删除名词术语"
+
+#: Locale/packages.php:321
+msgid "Toolkits"
+msgstr "工具箱"
+
+#: Locale/packages.php:322
+msgid "Fix Toolkit"
+msgstr "修复工具"
+
+#: Locale/packages.php:323
+msgid "Flush Toolkit"
+msgstr "清空缓存"
+
+#: Locale/packages.php:324
+msgid "Migrate Toolkit"
+msgstr "迁移工具"
+
+#: Locale/packages.php:325
+msgid "Tutorials"
+msgstr "学习教程"
+
+#: Locale/packages.php:326
+msgid "List Tutorials"
+msgstr "学习教程管理"
+
+#: Locale/packages.php:327 Locale/packages.php:331
+msgid "View Tutorial"
+msgstr "查看学习教程"
+
+#: Locale/packages.php:328 tmp/translation_fixtures.php:209
+msgid "Add Tutorial"
+msgstr "添加学习教程"
+
+#: Locale/packages.php:329 tmp/translation_fixtures.php:210
+msgid "Edit Tutorial"
+msgstr "编辑学习教程"
+
+#: Locale/packages.php:330
+msgid "Delete Tutorial"
+msgstr "删除学习教程"
+
+#: Locale/packages.php:332
+msgid "List Tutorial"
+msgstr "学习教程管理"
+
+#: Locale/packages.php:333
+msgid "Callback Comments Init Type Tutorial"
+msgstr ""
+
+#: Locale/packages.php:334 Locale/packages.php:335
+msgid "Toggle Tutorial"
+msgstr "学习教程状态"
+
+#: Locale/packages.php:336 Locale/packages.php:337
+msgid "Search Tutorial"
+msgstr "搜索学习教程"
+
+#: Locale/packages.php:338 Locale/packages.php:339
+msgid "Recycle Bin Tutorial"
+msgstr "学习教程回收站"
+
+#: Locale/packages.php:340 Locale/packages.php:341
+msgid "Recycle Tutorial"
+msgstr "回收学习教程"
+
+#: Locale/packages.php:342 Locale/packages.php:343
+msgid "Drop Tutorial"
+msgstr "永久删除学习教程"
+
+#: Locale/packages.php:344 View/Users/admin_index.ctp:2
+#: View/Users/admin_recycle_bin.ctp:2
+msgid "Users"
+msgstr "用户"
+
+#: Locale/packages.php:345
+msgid "List Users"
+msgstr "用户管理"
+
+#: Locale/packages.php:346 View/Users/admin_view.ctp:3
+msgid "View User"
+msgstr "查看用户"
+
+#: Locale/packages.php:347 tmp/translation_fixtures.php:219
+#: View/Users/admin_add.ctp:4
+msgid "Add User"
+msgstr "添加用户"
+
+#: Locale/packages.php:348 tmp/translation_fixtures.php:220
+#: View/Users/admin_edit.ctp:4
+msgid "Edit User"
+msgstr "编辑用户"
+
+#: Locale/packages.php:349
+msgid "Delete User"
+msgstr "删除用户"
+
+#: Locale/packages.php:350
+msgid "Password User"
+msgstr "修改密码"
+
+#: Locale/packages.php:351
+msgid "Profile User"
+msgstr "用户档案"
+
+#: Locale/packages.php:352
+msgid "Avatar User"
+msgstr "用户头像"
+
+#: Locale/packages.php:353
+msgid "Reset Password User"
+msgstr "重置密码"
+
+#: Locale/packages.php:354
+msgid "Dashboard User"
+msgstr "用户中心"
+
+#: Locale/packages.php:355
+msgid "Login User"
+msgstr "用户登录"
+
+#: Locale/packages.php:356
+msgid "Logout User"
+msgstr "用户注销"
+
+#: Locale/packages.php:357 Locale/packages.php:358
+msgid "Toggle User"
+msgstr "用户状态"
+
+#: Locale/packages.php:359 Locale/packages.php:360
+msgid "Search User"
+msgstr "搜索用户"
+
+#: Locale/packages.php:361 Locale/packages.php:362
+msgid "Recycle Bin User"
+msgstr "用户回收站"
+
+#: Locale/packages.php:363 Locale/packages.php:364
+msgid "Recycle User"
+msgstr "回收用户"
+
+#: Locale/packages.php:365 Locale/packages.php:366
+msgid "Drop User"
+msgstr "永久删除用户"
+
+#: Locale/packages.php:367 View/Widgets/admin_index.ctp:2
+msgid "Widgets"
+msgstr "部件管理"
+
+#: Locale/packages.php:369
+msgid "List Widgets"
+msgstr "部件管理"
+
+#: Locale/packages.php:370
+msgid "View Widget"
+msgstr "查看部件"
+
+#: Locale/packages.php:371 tmp/translation_fixtures.php:239
+msgid "Add Widget"
+msgstr "添加部件"
+
+#: Locale/packages.php:372 tmp/translation_fixtures.php:240
+msgid "Edit Widget"
+msgstr "编辑部件"
+
+#: Locale/packages.php:373
+msgid "Delete Widget"
+msgstr "删除部件"
+
+#: Locale/packages.php:374 Locale/packages.php:375
+msgid "Toggle Widget"
+msgstr "部件状态"
+
+#: Locale/packages.php:376 Locale/packages.php:377
+msgid "Search Widget"
+msgstr "搜索部件"
+
+#: Locale/packages.php:378 Locale/packages.php:379
+msgid "Recycle Bin Widget"
+msgstr "部件回收站"
+
+#: Locale/packages.php:380 Locale/packages.php:381
+msgid "Recycle Widget"
+msgstr "回收部件"
+
+#: Locale/packages.php:382 Locale/packages.php:383
+msgid "Drop Widget"
+msgstr "永久删除部件"
+
+#: Model/Category.php:112 Model/Group.php:160
+msgid "-Select Parent-"
+msgstr "-选择上级-"
+
+#: Model/Tenant.php:240
+msgid "-Select Tenant-"
+msgstr "-选择租户-"
+
+#: Model/User.php:261
+msgid "-Select Group-"
+msgstr "-选择角色-"
+
+#: tmp/translation_fixtures.php:2
+msgid "Invalid Article."
+msgstr "无效的文章"
+
+#: tmp/translation_fixtures.php:3
+msgid "The Article has been toggled."
+msgstr "恭喜, 文章状态更新成功"
+
+#: tmp/translation_fixtures.php:4
+msgid "The Article could not be toggled. Please, try again."
+msgstr "抱歉, 文章状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:5
+msgid "The Article has been recycled."
+msgstr "恭喜, 文章回收成功"
+
+#: tmp/translation_fixtures.php:6
+msgid "The Article could not be recycled. Please, try again."
+msgstr "抱歉, 租户回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:7
+msgid "The Article has been dropped."
+msgstr "恭喜, 文章已彻底删除"
+
+#: tmp/translation_fixtures.php:8
+msgid "The Article could not be dropped. Please, try again."
+msgstr "抱歉, 文章彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:11
+msgid "Save Article"
+msgstr "保存新闻"
+
+#: tmp/translation_fixtures.php:12
+msgid "Invalid ArticleCategory."
+msgstr "无效的类目"
+
+#: tmp/translation_fixtures.php:13
+msgid "The ArticleCategory has been toggled."
+msgstr "恭喜, 栏目状态更新成功"
+
+#: tmp/translation_fixtures.php:14
+msgid "The ArticleCategory could not be toggled. Please, try again."
+msgstr "抱歉, 栏目状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:15
+msgid "The ArticleCategory has been recycled."
+msgstr "恭喜, 栏目回收成功"
+
+#: tmp/translation_fixtures.php:16
+msgid "The ArticleCategory could not be recycled. Please, try again."
+msgstr "抱歉, 栏目回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:17
+msgid "The ArticleCategory has been dropped."
+msgstr "恭喜, 栏目已彻底删除"
+
+#: tmp/translation_fixtures.php:18
+msgid "The ArticleCategory could not be dropped. Please, try again."
+msgstr "抱歉, 栏目彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:19
+msgid "Add ArticleCategory"
+msgstr "添加栏目"
+
+#: tmp/translation_fixtures.php:20
+msgid "Edit ArticleCategory"
+msgstr "编辑栏目"
+
+#: tmp/translation_fixtures.php:21
+msgid "Save ArticleCategory"
+msgstr "保存栏目"
+
+#: tmp/translation_fixtures.php:22
+#, fuzzy
+msgid "Invalid Building."
+msgstr "无效的楼栋"
+
+#: tmp/translation_fixtures.php:23
+msgid "The Building has been toggled."
+msgstr "恭喜, 楼栋状态更新成功"
+
+#: tmp/translation_fixtures.php:24
+msgid "The Building could not be toggled. Please, try again."
+msgstr "抱歉,楼栋状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:25
+msgid "The Building has been recycled."
+msgstr "恭喜, 楼栋回收成功"
+
+#: tmp/translation_fixtures.php:26
+msgid "The Building could not be recycled. Please, try again."
+msgstr "抱歉, 楼栋回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:27
+msgid "The Building has been dropped."
+msgstr "恭喜, 楼栋彻底删除成功"
+
+#: tmp/translation_fixtures.php:28
+msgid "The Building could not be dropped. Please, try again."
+msgstr "抱歉, 楼栋彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:31
+msgid "Save Building"
+msgstr "保存楼栋"
+
+#: tmp/translation_fixtures.php:32
+#, fuzzy
+msgid "Invalid BuildingBlock."
+msgstr "无效的单元"
+
+#: tmp/translation_fixtures.php:33
+msgid "The BuildingBlock has been toggled."
+msgstr "恭喜, 单元状态更新成功"
+
+#: tmp/translation_fixtures.php:34
+msgid "The BuildingBlock could not be toggled. Please, try again."
+msgstr "抱歉, 单元更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:35
+msgid "The BuildingBlock has been recycled."
+msgstr "恭喜, 单元回收成功"
+
+#: tmp/translation_fixtures.php:36
+msgid "The BuildingBlock could not be recycled. Please, try again."
+msgstr "抱歉, 单元回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:37
+msgid "The BuildingBlock has been dropped."
+msgstr "恭喜, 单元彻底删除成功"
+
+#: tmp/translation_fixtures.php:38
+msgid "The BuildingBlock could not be dropped. Please, try again."
+msgstr "抱歉, 单元彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:39
+#, fuzzy
+msgid "Add BuildingBlock"
+msgstr "添加单元"
+
+#: tmp/translation_fixtures.php:40
+#, fuzzy
+msgid "Edit BuildingBlock"
+msgstr "编辑单元"
+
+#: tmp/translation_fixtures.php:41
+msgid "Save BuildingBlock"
+msgstr "保存单元"
+
+#: tmp/translation_fixtures.php:42
+#, fuzzy
+msgid "Invalid BuildingResident."
+msgstr "无效的居民"
+
+#: tmp/translation_fixtures.php:43
+msgid "The BuildingResident has been toggled."
+msgstr "恭喜, 居民状态更新成功"
+
+#: tmp/translation_fixtures.php:44
+msgid "The BuildingResident could not be toggled. Please, try again."
+msgstr "抱歉, 居民状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:45
+msgid "The BuildingResident has been recycled."
+msgstr "恭喜, 居民回收成功"
+
+#: tmp/translation_fixtures.php:46
+msgid "The BuildingResident could not be recycled. Please, try again."
+msgstr "抱歉, 居民回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:47
+msgid "The BuildingResident has been dropped."
+msgstr "恭喜, 居民彻底删除成功"
+
+#: tmp/translation_fixtures.php:48
+msgid "The BuildingResident could not be dropped. Please, try again."
+msgstr "抱歉, 居民彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:49
+#, fuzzy
+msgid "Add BuildingResident"
+msgstr "添加居民"
+
+#: tmp/translation_fixtures.php:50
+msgid "Edit BuildingResident"
+msgstr "编辑居民"
+
+#: tmp/translation_fixtures.php:51
+msgid "Save BuildingResident"
+msgstr "保存居民"
+
+#: tmp/translation_fixtures.php:52
+#, fuzzy
+msgid "Invalid BuildingRoom."
+msgstr "无效的房间"
+
+#: tmp/translation_fixtures.php:53
+msgid "The BuildingRoom has been toggled."
+msgstr "恭喜, 房间状态更新成功"
+
+#: tmp/translation_fixtures.php:54
+msgid "The BuildingRoom could not be toggled. Please, try again."
+msgstr "抱歉, 房间状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:55
+msgid "The BuildingRoom has been recycled."
+msgstr "恭喜, 房间回收成功"
+
+#: tmp/translation_fixtures.php:56
+msgid "The BuildingRoom could not be recycled. Please, try again."
+msgstr "抱歉, 房间回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:57
+msgid "The BuildingRoom has been dropped."
+msgstr "恭喜, 房间彻底删除成功"
+
+#: tmp/translation_fixtures.php:58
+msgid "The BuildingRoom could not be dropped. Please, try again."
+msgstr "抱歉, 房间彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:59
+#, fuzzy
+msgid "Add BuildingRoom"
+msgstr "添加房间"
+
+#: tmp/translation_fixtures.php:60
+#, fuzzy
+msgid "Edit BuildingRoom"
+msgstr "编辑房间"
+
+#: tmp/translation_fixtures.php:61
+msgid "Save BuildingRoom"
+msgstr "保存房间"
+
+#: tmp/translation_fixtures.php:62
+msgid "Invalid Category."
+msgstr "无效的类目"
+
+#: tmp/translation_fixtures.php:63
+msgid "The Category has been toggled."
+msgstr "恭喜, 分类状态更新成功"
+
+#: tmp/translation_fixtures.php:64
+msgid "The Category could not be toggled. Please, try again."
+msgstr "抱歉, 分类状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:65
+msgid "The Category has been recycled."
+msgstr "恭喜, 栏目回收成功"
+
+#: tmp/translation_fixtures.php:66
+msgid "The Category could not be recycled. Please, try again."
+msgstr "类目保存失败,请重试"
+
+#: tmp/translation_fixtures.php:67
+msgid "The Category has been dropped."
+msgstr "恭喜, 栏目彻底删除成功"
+
+#: tmp/translation_fixtures.php:68
+msgid "The Category could not be dropped. Please, try again."
+msgstr "抱歉, 栏目彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:71
+msgid "Save Category"
+msgstr "保存分类"
+
+#: tmp/translation_fixtures.php:72
+msgid "Invalid Chapter."
+msgstr "无效的章节"
+
+#: tmp/translation_fixtures.php:73
+msgid "The Chapter has been toggled."
+msgstr "恭喜, 章节状态更新成功"
+
+#: tmp/translation_fixtures.php:74
+msgid "The Chapter could not be toggled. Please, try again."
+msgstr "抱歉, 章节状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:75
+msgid "The Chapter has been recycled."
+msgstr "恭喜, 章节回收成功"
+
+#: tmp/translation_fixtures.php:76
+msgid "The Chapter could not be recycled. Please, try again."
+msgstr "抱歉, 章节回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:77
+msgid "The Chapter has been dropped."
+msgstr "恭喜, 章节彻底删除成功"
+
+#: tmp/translation_fixtures.php:78
+msgid "The Chapter could not be dropped. Please, try again."
+msgstr "抱歉, 章节彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:81
+msgid "Save Chapter"
+msgstr "保存章节"
+
+#: tmp/translation_fixtures.php:82
+msgid "Invalid Config."
+msgstr "无效的配置"
+
+#: tmp/translation_fixtures.php:83
+msgid "The Config has been toggled."
+msgstr "恭喜, 配置状态更新成功"
+
+#: tmp/translation_fixtures.php:84
+msgid "The Config could not be toggled. Please, try again."
+msgstr "抱歉, 配置状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:85
+msgid "The Config has been recycled."
+msgstr "恭喜, 配置回收成功"
+
+#: tmp/translation_fixtures.php:86
+msgid "The Config could not be recycled. Please, try again."
+msgstr "抱歉, 配置回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:87
+msgid "The Config has been dropped."
+msgstr "恭喜, 配置彻底删除成功"
+
+#: tmp/translation_fixtures.php:88
+msgid "The Config could not be dropped. Please, try again."
+msgstr "抱歉, 配置彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:89 View/Configs/admin_add.ctp:4
+msgid "Add Config"
+msgstr "添加配置"
+
+#: tmp/translation_fixtures.php:91
+msgid "Save Config"
+msgstr "保存配置"
+
+#: tmp/translation_fixtures.php:92
+msgid "Invalid Download."
+msgstr "无效的下载资源"
+
+#: tmp/translation_fixtures.php:93
+msgid "The Download has been toggled."
+msgstr "恭喜, 资源状态更新成功"
+
+#: tmp/translation_fixtures.php:94
+msgid "The Download could not be toggled. Please, try again."
+msgstr "抱歉, 资源状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:95
+msgid "The Download has been recycled."
+msgstr "恭喜, 资源回收成功"
+
+#: tmp/translation_fixtures.php:96
+msgid "The Download could not be recycled. Please, try again."
+msgstr "抱歉, 资源回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:97
+msgid "The Download has been dropped."
+msgstr "恭喜, 资源彻底删除成功"
+
+#: tmp/translation_fixtures.php:98
+msgid "The Download could not be dropped. Please, try again."
+msgstr "抱歉, 资源彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:101
+msgid "Save Download"
+msgstr "保存资源"
+
+#: tmp/translation_fixtures.php:102
+msgid "Invalid DownloadCategory."
+msgstr "无效的资源分类"
+
+#: tmp/translation_fixtures.php:103
+msgid "The DownloadCategory has been toggled."
+msgstr "恭喜, 分类状态更新成功"
+
+#: tmp/translation_fixtures.php:104
+msgid "The DownloadCategory could not be toggled. Please, try again."
+msgstr "抱歉, 分类状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:105
+msgid "The DownloadCategory has been recycled."
+msgstr "恭喜, 分类回收成功"
+
+#: tmp/translation_fixtures.php:106
+msgid "The DownloadCategory could not be recycled. Please, try again."
+msgstr "抱歉, 分类回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:107
+msgid "The DownloadCategory has been dropped."
+msgstr "恭喜, 分类彻底删除成功"
+
+#: tmp/translation_fixtures.php:108
+msgid "The DownloadCategory could not be dropped. Please, try again."
+msgstr "抱歉, 分类彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:109
+msgid "Add DownloadCategory"
+msgstr "添加资源分类"
+
+#: tmp/translation_fixtures.php:110
+msgid "Edit DownloadCategory"
+msgstr "编辑资源分类"
+
+#: tmp/translation_fixtures.php:111
+msgid "Save DownloadCategory"
+msgstr "保存资源分类"
+
+#: tmp/translation_fixtures.php:112
+msgid "Invalid EthnicGroup."
+msgstr "无效的民族"
+
+#: tmp/translation_fixtures.php:113
+msgid "The EthnicGroup has been toggled."
+msgstr "恭喜, 民族状态更新成功"
+
+#: tmp/translation_fixtures.php:114
+msgid "The EthnicGroup could not be toggled. Please, try again."
+msgstr "抱歉, 民族状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:115
+msgid "The EthnicGroup has been recycled."
+msgstr "恭喜, 民族回收成功"
+
+#: tmp/translation_fixtures.php:116
+msgid "The EthnicGroup could not be recycled. Please, try again."
+msgstr "抱歉, 民族回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:117
+msgid "The EthnicGroup has been dropped."
+msgstr "恭喜, 民族彻底删除成功"
+
+#: tmp/translation_fixtures.php:118
+msgid "The EthnicGroup could not be dropped. Please, try again."
+msgstr "抱歉, 民族彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:119
+#, fuzzy
+msgid "Add EthnicGroup"
+msgstr "添加民族"
+
+#: tmp/translation_fixtures.php:120
+#, fuzzy
+msgid "Edit EthnicGroup"
+msgstr "编辑民族"
+
+#: tmp/translation_fixtures.php:121
+msgid "Save EthnicGroup"
+msgstr "保存民族"
+
+#: tmp/translation_fixtures.php:122
+msgid "Invalid Exercise."
+msgstr "无效的文章"
+
+#: tmp/translation_fixtures.php:123
+msgid "The Exercise has been toggled."
+msgstr "恭喜, 文章状态更新成功"
+
+#: tmp/translation_fixtures.php:124
+msgid "The Exercise could not be toggled. Please, try again."
+msgstr "抱歉, 文章状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:125
+msgid "The Exercise has been recycled."
+msgstr "恭喜, 文章回收成功"
+
+#: tmp/translation_fixtures.php:126
+msgid "The Exercise could not be recycled. Please, try again."
+msgstr "抱歉, 文章回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:127
+msgid "The Exercise has been dropped."
+msgstr "恭喜, 文章彻底删除成功"
+
+#: tmp/translation_fixtures.php:128
+msgid "The Exercise could not be dropped. Please, try again."
+msgstr "抱歉, 文章彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:131
+msgid "Save Exercise"
+msgstr "保存习题"
+
+#: tmp/translation_fixtures.php:132
+msgid "Invalid Group."
+msgstr "无效的角色"
+
+#: tmp/translation_fixtures.php:133
+msgid "The Group has been toggled."
+msgstr "恭喜, 角色状态更新成功"
+
+#: tmp/translation_fixtures.php:134
+msgid "The Group could not be toggled. Please, try again."
+msgstr "抱歉, 角色状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:135
+msgid "The Group has been recycled."
+msgstr "恭喜, 角色回收成功"
+
+#: tmp/translation_fixtures.php:136
+msgid "The Group could not be recycled. Please, try again."
+msgstr "抱歉, 角色回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:137
+msgid "The Group has been dropped."
+msgstr "恭喜, 角色彻底删除成功"
+
+#: tmp/translation_fixtures.php:138
+msgid "The Group could not be dropped. Please, try again."
+msgstr "抱歉, 角色彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:141
+msgid "Save Group"
+msgstr "保存角色"
+
+#: tmp/translation_fixtures.php:142
+msgid "Invalid Link."
+msgstr "无效的连接"
+
+#: tmp/translation_fixtures.php:143
+msgid "The Link has been toggled."
+msgstr "恭喜, 连接状态更新成功"
+
+#: tmp/translation_fixtures.php:144
+msgid "The Link could not be toggled. Please, try again."
+msgstr "抱歉, 连接状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:145
+msgid "The Link has been recycled."
+msgstr "恭喜, 链接回收成功"
+
+#: tmp/translation_fixtures.php:146
+msgid "The Link could not be recycled. Please, try again."
+msgstr "抱歉, 链接回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:147
+msgid "The Link has been dropped."
+msgstr "恭喜, 链接彻底删除成功"
+
+#: tmp/translation_fixtures.php:148
+msgid "The Link could not be dropped. Please, try again."
+msgstr "抱歉, 链接彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:151
+msgid "Save Link"
+msgstr "保存友情链接"
+
+#: tmp/translation_fixtures.php:152
+msgid "Invalid Log."
+msgstr "无效的日志"
+
+#: tmp/translation_fixtures.php:153
+msgid "The Log has been toggled."
+msgstr "恭喜, 日志状态更新成功"
+
+#: tmp/translation_fixtures.php:154
+msgid "The Log could not be toggled. Please, try again."
+msgstr "抱歉, 日志状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:155
+msgid "The Log has been recycled."
+msgstr "恭喜, 日志回收成功"
+
+#: tmp/translation_fixtures.php:156
+msgid "The Log could not be recycled. Please, try again."
+msgstr "抱歉, 日志回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:157
+msgid "The Log has been dropped."
+msgstr "恭喜, 日志彻底删除成功"
+
+#: tmp/translation_fixtures.php:158
+msgid "The Log could not be dropped. Please, try again."
+msgstr "抱歉, 日志彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:159
+msgid "Add Log"
+msgstr "Add Log"
+
+#: tmp/translation_fixtures.php:160
+msgid "Edit Log"
+msgstr "Edit Log"
+
+#: tmp/translation_fixtures.php:161
+msgid "Save Log"
+msgstr "保存日志"
+
+#: tmp/translation_fixtures.php:162
+msgid "Invalid MiscPost."
+msgstr "无效的文案"
+
+#: tmp/translation_fixtures.php:163
+msgid "The MiscPost has been toggled."
+msgstr "恭喜, 文案状态更新成功"
+
+#: tmp/translation_fixtures.php:164
+msgid "The MiscPost could not be toggled. Please, try again."
+msgstr "抱歉, 文案状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:165
+msgid "The MiscPost has been recycled."
+msgstr "恭喜, 文案回收成功"
+
+#: tmp/translation_fixtures.php:166
+msgid "The MiscPost could not be recycled. Please, try again."
+msgstr "抱歉, 文案回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:167
+msgid "The MiscPost has been dropped."
+msgstr "恭喜, 文案彻底删除成功"
+
+#: tmp/translation_fixtures.php:168
+msgid "The MiscPost could not be dropped. Please, try again."
+msgstr "抱歉, 文案彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:169
+msgid "Add MiscPost"
+msgstr "添加文案"
+
+#: tmp/translation_fixtures.php:170
+msgid "Edit MiscPost"
+msgstr "编辑文案"
+
+#: tmp/translation_fixtures.php:171
+msgid "Save MiscPost"
+msgstr "保存文案"
+
+#: tmp/translation_fixtures.php:172
+msgid "Invalid Post."
+msgstr "无效的文章"
+
+#: tmp/translation_fixtures.php:173
+msgid "The Post has been toggled."
+msgstr "恭喜, 文章状态更新成功"
+
+#: tmp/translation_fixtures.php:174
+msgid "The Post could not be toggled. Please, try again."
+msgstr "抱歉, 文章状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:175
+msgid "The Post has been recycled."
+msgstr "恭喜, 文章回收成功"
+
+#: tmp/translation_fixtures.php:176
+msgid "The Post could not be recycled. Please, try again."
+msgstr "抱歉, 文章回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:177
+msgid "The Post has been dropped."
+msgstr "恭喜, 文章彻底删除成功"
+
+#: tmp/translation_fixtures.php:178
+msgid "The Post could not be dropped. Please, try again."
+msgstr "抱歉, 文章彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:181
+msgid "Save Post"
+msgstr "保存文章"
+
+#: tmp/translation_fixtures.php:182
+msgid "Invalid Tenant."
+msgstr "无效的租户"
+
+#: tmp/translation_fixtures.php:183
+msgid "The Tenant has been toggled."
+msgstr "恭喜, 租户状态更新成功"
+
+#: tmp/translation_fixtures.php:184
+msgid "The Tenant could not be toggled. Please, try again."
+msgstr "抱歉, 租户状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:185
+msgid "The Tenant has been recycled."
+msgstr "恭喜, 租户回收成功"
+
+#: tmp/translation_fixtures.php:186
+msgid "The Tenant could not be recycled. Please, try again."
+msgstr "抱歉, 租户回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:187
+msgid "The Tenant has been dropped."
+msgstr "恭喜, 租户彻底删除成功"
+
+#: tmp/translation_fixtures.php:188
+msgid "The Tenant could not be dropped. Please, try again."
+msgstr "抱歉, 租户彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:191
+msgid "Save Tenant"
+msgstr "保存租户"
+
+#: tmp/translation_fixtures.php:192
+msgid "Invalid Terminology."
+msgstr "无效的文章"
+
+#: tmp/translation_fixtures.php:193
+msgid "The Terminology has been toggled."
+msgstr "恭喜, 文章状态更新成功"
+
+#: tmp/translation_fixtures.php:194
+msgid "The Terminology could not be toggled. Please, try again."
+msgstr "抱歉, 文章状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:195
+msgid "The Terminology has been recycled."
+msgstr "恭喜, 文章回收成功"
+
+#: tmp/translation_fixtures.php:196
+msgid "The Terminology could not be recycled. Please, try again."
+msgstr "抱歉, 文章回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:197
+msgid "The Terminology has been dropped."
+msgstr "恭喜, 文章彻底删除成功"
+
+#: tmp/translation_fixtures.php:198
+msgid "The Terminology could not be dropped. Please, try again."
+msgstr "抱歉, 文章彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:201
+msgid "Save Terminology"
+msgstr "保存名词术语"
+
+#: tmp/translation_fixtures.php:202
+msgid "Invalid Tutorial."
+msgstr "无效的文章"
+
+#: tmp/translation_fixtures.php:203
+msgid "The Tutorial has been toggled."
+msgstr "恭喜, 文章状态更新成功"
+
+#: tmp/translation_fixtures.php:204
+msgid "The Tutorial could not be toggled. Please, try again."
+msgstr "抱歉, 文章状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:205
+msgid "The Tutorial has been recycled."
+msgstr "恭喜, 文章回收成功"
+
+#: tmp/translation_fixtures.php:206
+msgid "The Tutorial could not be recycled. Please, try again."
+msgstr "抱歉, 文章回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:207
+msgid "The Tutorial has been dropped."
+msgstr "恭喜, 文章彻底删除成功"
+
+#: tmp/translation_fixtures.php:208
+msgid "The Tutorial could not be dropped. Please, try again."
+msgstr "抱歉, 文章彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:211
+msgid "Save Tutorial"
+msgstr "保存学习教程"
+
+#: tmp/translation_fixtures.php:212
+msgid "Invalid User."
+msgstr "无效的用户"
+
+#: tmp/translation_fixtures.php:213
+msgid "The User has been toggled."
+msgstr "恭喜, 用户状态更新成功"
+
+#: tmp/translation_fixtures.php:214
+msgid "The User could not be toggled. Please, try again."
+msgstr "抱歉, 用户状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:215
+msgid "The User has been recycled."
+msgstr "恭喜, 用户回收成功"
+
+#: tmp/translation_fixtures.php:216
+msgid "The User could not be recycled. Please, try again."
+msgstr "抱歉, 用户回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:217
+msgid "The User has been dropped."
+msgstr "恭喜, 用户彻底删除成功"
+
+#: tmp/translation_fixtures.php:218
+msgid "The User could not be dropped. Please, try again."
+msgstr "抱歉, 用户彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:221
+msgid "Save User"
+msgstr "保存用户"
+
+#: tmp/translation_fixtures.php:222
+msgid "Invalid UserProfile."
+msgstr "无效的用户档案"
+
+#: tmp/translation_fixtures.php:223
+msgid "The UserProfile has been toggled."
+msgstr "恭喜, 用户档案状态更新成功"
+
+#: tmp/translation_fixtures.php:224
+msgid "The UserProfile could not be toggled. Please, try again."
+msgstr "抱歉, 用户档案状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:225
+msgid "The UserProfile has been recycled."
+msgstr "恭喜, 用户档案回收成功"
+
+#: tmp/translation_fixtures.php:226
+msgid "The UserProfile could not be recycled. Please, try again."
+msgstr "抱歉, 用户档案回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:227
+msgid "The UserProfile has been dropped."
+msgstr "恭喜, 用户档案彻底删除成功"
+
+#: tmp/translation_fixtures.php:228
+msgid "The UserProfile could not be dropped. Please, try again."
+msgstr "抱歉, 用户档案彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:229
+msgid "Add UserProfile"
+msgstr "添加用户档案"
+
+#: tmp/translation_fixtures.php:230
+msgid "Edit UserProfile"
+msgstr "编辑用户档案"
+
+#: tmp/translation_fixtures.php:231
+msgid "Save UserProfile"
+msgstr "保存用户档案"
+
+#: tmp/translation_fixtures.php:232
+msgid "Invalid Widget."
+msgstr "无效的部件"
+
+#: tmp/translation_fixtures.php:233
+msgid "The Widget has been toggled."
+msgstr "恭喜, 组件状态更新成功"
+
+#: tmp/translation_fixtures.php:234
+msgid "The Widget could not be toggled. Please, try again."
+msgstr "抱歉, 组件状态更新失败, 请重试"
+
+#: tmp/translation_fixtures.php:235
+msgid "The Widget has been recycled."
+msgstr "恭喜, 组件回收成功"
+
+#: tmp/translation_fixtures.php:236
+msgid "The Widget could not be recycled. Please, try again."
+msgstr "抱歉, 组件回收失败, 请重试"
+
+#: tmp/translation_fixtures.php:237
+msgid "The Widget has been dropped."
+msgstr "恭喜, 组件彻底删除成功"
+
+#: tmp/translation_fixtures.php:238
+msgid "The Widget could not be dropped. Please, try again."
+msgstr "抱歉, 组件彻底删除失败, 请重试"
+
+#: tmp/translation_fixtures.php:241
+msgid "Save Widget"
+msgstr "保存部件"
+
+#: webroot/test.php:87
+msgid "cake_dev"
+msgstr "cake_dev"
+
+#: View/Auths/admin_index.ctp:4
+msgid "Build ACOs"
+msgstr "重建ACO"
+
+#: View/Auths/admin_index.ctp:5
+msgid "Build AROs"
+msgstr "重建ARO"
+
+#: View/Auths/admin_index.ctp:6
+msgid "Build Permissions"
+msgstr "重建权限"
+
+#: View/Auths/admin_index.ctp:14
+msgid "Nothing to do"
+msgstr "没有进行任何操作"
+
+#: View/BuildingBlocks/admin_add.ctp:16 View/BuildingBlocks/admin_edit.ctp:17
+#: View/BuildingResidents/admin_add.ctp:33
+#: View/BuildingResidents/admin_edit.ctp:33
+#: View/BuildingRooms/admin_add.ctp:14 View/BuildingRooms/admin_edit.ctp:15
+#: View/Buildings/admin_add.ctp:13 View/Buildings/admin_edit.ctp:14
+#: View/Categories/admin_add.ctp:18 View/Categories/admin_edit.ctp:19
+#: View/Categories/admin_index.ctp:82 View/Categories/admin_tree.ctp:39
+#: View/Configs/admin_add.ctp:17 View/Configs/admin_edit.ctp:18
+#: View/Downloads/admin_add.ctp:28 View/Downloads/admin_edit.ctp:29
+#: View/Groups/admin_add.ctp:11 View/Groups/admin_edit.ctp:12
+#: View/Groups/admin_tree.ctp:38 View/Links/admin_add.ctp:14
+#: View/Links/admin_edit.ctp:15 View/Tenants/admin_add.ctp:10
+#: View/Tenants/admin_edit.ctp:11 View/Users/admin_add.ctp:14
+#: View/Users/admin_edit.ctp:15 View/Users/admin_profile.ctp:14
+#: View/Widgets/admin_add.ctp:18 View/Widgets/admin_edit.ctp:19
+msgid "Submit"
+msgstr "提交"
+
+#: View/BuildingBlocks/admin_ajax_index.ctp:3
+msgid "-Select Building Block-"
+msgstr "-选择单元-"
+
+#: View/BuildingBlocks/admin_index.ctp:5
+#: View/BuildingBlocks/admin_recycle_bin.ctp:5
+#: View/BuildingResidents/admin_index.ctp:5
+#: View/BuildingResidents/admin_recycle_bin.ctp:5
+#: View/BuildingRooms/admin_index.ctp:5 View/Buildings/admin_index.ctp:6
+#: View/Buildings/admin_recycle_bin.ctp:5 View/Categories/admin_index.ctp:6
+#: View/Categories/admin_recycle_bin.ctp:5 View/Categories/admin_tree.ctp:5
+#: View/Configs/admin_index.ctp:5 View/Downloads/admin_index.ctp:5
+#: View/Downloads/admin_recycle_bin.ctp:5 View/Groups/admin_index.ctp:5
+#: View/Groups/admin_recycle_bin.ctp:5 View/Groups/admin_tree.ctp:5
+#: View/Links/admin_index.ctp:5 View/Links/admin_recycle_bin.ctp:5
+#: View/Logs/admin_index.ctp:13 View/Posts/admin_index.ctp:5
+#: View/Posts/admin_recycle_bin.ctp:5 View/Tenants/admin_index.ctp:5
+#: View/Tenants/admin_recycle_bin.ctp:5 View/Users/admin_index.ctp:5
+#: View/Users/admin_recycle_bin.ctp:5 View/Widgets/admin_index.ctp:5
+msgid "type to search"
+msgstr "搜索"
+
+#: View/BuildingBlocks/admin_index.ctp:9
+#: View/BuildingResidents/admin_add.ctp:11
+msgid "-Select Building-"
+msgstr "-选择楼栋-"
+
+#: View/BuildingBlocks/admin_index.ctp:10
+#: View/BuildingBlocks/admin_recycle_bin.ctp:9
+#: View/BuildingResidents/admin_index.ctp:36
+#: View/BuildingResidents/admin_recycle_bin.ctp:9
+#: View/BuildingRooms/admin_index.ctp:9 View/Buildings/admin_index.ctp:10
+#: View/Buildings/admin_recycle_bin.ctp:9 View/Categories/admin_index.ctp:10
+#: View/Categories/admin_recycle_bin.ctp:9 View/Categories/admin_tree.ctp:9
+#: View/Configs/admin_index.ctp:9 View/Downloads/admin_index.ctp:9
+#: View/Downloads/admin_recycle_bin.ctp:9 View/Groups/admin_index.ctp:9
+#: View/Groups/admin_recycle_bin.ctp:9 View/Groups/admin_tree.ctp:9
+#: View/Links/admin_index.ctp:9 View/Links/admin_recycle_bin.ctp:9
+#: View/Logs/admin_index.ctp:17 View/Posts/admin_index.ctp:10
+#: View/Posts/admin_recycle_bin.ctp:10 View/Tenants/admin_index.ctp:6
+#: View/Tenants/admin_recycle_bin.ctp:6 View/Users/admin_index.ctp:9
+#: View/Users/admin_recycle_bin.ctp:9 View/Widgets/admin_index.ctp:9
+msgid "Search"
+msgstr "搜索"
+
+#: View/BuildingBlocks/admin_index.ctp:11
+#: View/BuildingBlocks/admin_recycle_bin.ctp:10
+#: View/BuildingResidents/admin_index.ctp:37
+#: View/BuildingResidents/admin_recycle_bin.ctp:10
+#: View/BuildingRooms/admin_index.ctp:10 View/Buildings/admin_index.ctp:11
+#: View/Buildings/admin_recycle_bin.ctp:10 View/Categories/admin_index.ctp:11
+#: View/Categories/admin_recycle_bin.ctp:10 View/Categories/admin_tree.ctp:10
+#: View/Configs/admin_index.ctp:10 View/Downloads/admin_index.ctp:10
+#: View/Downloads/admin_recycle_bin.ctp:10 View/Groups/admin_index.ctp:10
+#: View/Groups/admin_recycle_bin.ctp:10 View/Groups/admin_tree.ctp:10
+#: View/Links/admin_index.ctp:10 View/Links/admin_recycle_bin.ctp:10
+#: View/Posts/admin_index.ctp:11 View/Posts/admin_recycle_bin.ctp:11
+#: View/Tenants/admin_index.ctp:7 View/Tenants/admin_recycle_bin.ctp:7
+#: View/Users/admin_index.ctp:10 View/Users/admin_recycle_bin.ctp:10
+#: View/Widgets/admin_index.ctp:10
+msgid "Add"
+msgstr "添加"
+
+#: View/BuildingBlocks/admin_index.ctp:12
+#: View/BuildingResidents/admin_index.ctp:38
+#: View/BuildingRooms/admin_index.ctp:11 View/Buildings/admin_index.ctp:12
+#: View/Categories/admin_index.ctp:12 View/Configs/admin_index.ctp:11
+#: View/Downloads/admin_index.ctp:11 View/Groups/admin_index.ctp:11
+#: View/Links/admin_index.ctp:11 View/Links/admin_recycle_bin.ctp:11
+#: View/Posts/admin_index.ctp:12 View/Tenants/admin_index.ctp:8
+#: View/Users/admin_index.ctp:11 View/Widgets/admin_index.ctp:11
+msgid "Recycle Bin"
+msgstr "回收站"
+
+#: View/BuildingBlocks/admin_index.ctp:27
+#: View/BuildingBlocks/admin_recycle_bin.ctp:26
+#: View/BuildingResidents/admin_index.ctp:57
+#: View/BuildingResidents/admin_recycle_bin.ctp:30
+#: View/BuildingRooms/admin_index.ctp:24 View/BuildingRooms/admin_view.ctp:60
+#: View/Buildings/admin_index.ctp:24 View/Buildings/admin_recycle_bin.ctp:23
+#: View/Categories/admin_index.ctp:30 View/Categories/admin_recycle_bin.ctp:26
+#: View/Configs/admin_index.ctp:27 View/Downloads/admin_index.ctp:26
+#: View/Downloads/admin_recycle_bin.ctp:26 View/Groups/admin_index.ctp:24
+#: View/Groups/admin_recycle_bin.ctp:23 View/Links/admin_index.ctp:24
+#: View/Links/admin_recycle_bin.ctp:24 View/Posts/admin_index.ctp:29
+#: View/Posts/admin_recycle_bin.ctp:29 View/Tenants/admin_index.ctp:22
+#: View/Tenants/admin_recycle_bin.ctp:22 View/Users/admin_index.ctp:27
+#: View/Users/admin_recycle_bin.ctp:28 View/Widgets/admin_index.ctp:28
+msgid "Actions"
+msgstr "管理"
+
+#: View/BuildingBlocks/admin_index.ctp:44
+#: View/BuildingResidents/admin_index.ctp:75
+#: View/BuildingRooms/admin_index.ctp:38 View/BuildingRooms/admin_view.ctp:92
+#: View/Buildings/admin_index.ctp:36 View/Configs/admin_index.ctp:42
+#: View/Links/admin_index.ctp:46 View/Posts/admin_index.ctp:38
+#: View/Posts/admin_recycle_bin.ctp:38 View/Tenants/admin_index.ctp:45
+#: View/Users/admin_index.ctp:53 View/Widgets/admin_index.ctp:44
+msgid "View"
+msgstr "查看"
+
+#: View/BuildingBlocks/admin_index.ctp:45
+#: View/BuildingResidents/admin_index.ctp:76
+#: View/BuildingResidents/admin_view.ctp:56
+#: View/BuildingRooms/admin_index.ctp:39 View/BuildingRooms/admin_view.ctp:93
+#: View/Buildings/admin_index.ctp:37 View/Categories/admin_index.ctp:47
+#: View/Configs/admin_index.ctp:43 View/Downloads/admin_index.ctp:54
+#: View/Elements/categories.admin.ctp:7 View/Groups/admin_index.ctp:39
+#: View/Groups/admin_view.ctp:19 View/Links/admin_index.ctp:47
+#: View/Links/admin_view.ctp:21 View/Posts/admin_index.ctp:55
+#: View/Posts/admin_view.ctp:38 View/Tenants/admin_index.ctp:46
+#: View/Tenants/admin_view.ctp:23 View/Users/admin_index.ctp:54
+#: View/Users/admin_view.ctp:34 View/Widgets/admin_index.ctp:45
+msgid "Edit"
+msgstr "编辑"
+
+#: View/BuildingBlocks/admin_index.ctp:46
+#: View/BuildingResidents/admin_index.ctp:77
+#: View/BuildingResidents/admin_view.ctp:57
+#: View/BuildingRooms/admin_index.ctp:40 View/BuildingRooms/admin_view.ctp:94
+#: View/Buildings/admin_index.ctp:38 View/Categories/admin_index.ctp:48
+#: View/Configs/admin_index.ctp:44 View/Downloads/admin_index.ctp:55
+#: View/Groups/admin_index.ctp:40 View/Groups/admin_view.ctp:20
+#: View/Links/admin_index.ctp:48 View/Links/admin_view.ctp:22
+#: View/Posts/admin_index.ctp:56 View/Posts/admin_view.ctp:39
+#: View/Tenants/admin_index.ctp:47 View/Tenants/admin_view.ctp:24
+#: View/Users/admin_index.ctp:55 View/Users/admin_view.ctp:35
+#: View/Widgets/admin_index.ctp:46
+msgid "Delete"
+msgstr "删除"
+
+#: View/BuildingBlocks/admin_index.ctp:46
+#: View/BuildingResidents/admin_index.ctp:77
+#: View/BuildingRooms/admin_index.ctp:40 View/BuildingRooms/admin_view.ctp:94
+#: View/Buildings/admin_index.ctp:38 View/Categories/admin_index.ctp:48
+#: View/Configs/admin_index.ctp:44 View/Downloads/admin_index.ctp:55
+#: View/Groups/admin_index.ctp:40 View/Links/admin_index.ctp:48
+#: View/Posts/admin_index.ctp:56 View/Tenants/admin_index.ctp:47
+#: View/Users/admin_index.ctp:55 View/Widgets/admin_index.ctp:46
+#, php-format
+msgid "Are you sure you want to delete # %s?"
+msgstr "您确定要删除记录%s么？"
+
+#: View/BuildingBlocks/admin_index.ctp:59
+#: View/BuildingBlocks/admin_recycle_bin.ctp:56
+#: View/BuildingResidents/admin_index.ctp:90
+#: View/BuildingResidents/admin_recycle_bin.ctp:65
+#: View/BuildingRooms/admin_index.ctp:53 View/Buildings/admin_index.ctp:51
+#: View/Buildings/admin_recycle_bin.ctp:48 View/Categories/admin_index.ctp:90
+#: View/Categories/admin_recycle_bin.ctp:54 View/Categories/admin_tree.ctp:47
+#: View/Configs/admin_index.ctp:57 View/Downloads/admin_index.ctp:68
+#: View/Downloads/admin_recycle_bin.ctp:68 View/Downloads/index.ctp:37
+#: View/Groups/admin_index.ctp:53 View/Groups/admin_recycle_bin.ctp:50
+#: View/Groups/admin_tree.ctp:46 View/Links/admin_index.ctp:70
+#: View/Links/admin_recycle_bin.ctp:59 View/Logs/admin_index.ctp:53
+#: View/Posts/admin_index.ctp:69 View/Posts/admin_recycle_bin.ctp:69
+#: View/Posts/index.ctp:37 View/Posts/view.ctp:38
+#: View/Tenants/admin_index.ctp:60 View/Tenants/admin_recycle_bin.ctp:59
+#: View/Users/admin_index.ctp:68 View/Users/admin_recycle_bin.ctp:68
+#: View/Widgets/admin_index.ctp:59
+msgid "Oops"
+msgstr "哎呀"
+
+#: View/BuildingBlocks/admin_index.ctp:59
+#: View/BuildingBlocks/admin_recycle_bin.ctp:56
+#: View/BuildingResidents/admin_index.ctp:90
+#: View/BuildingResidents/admin_recycle_bin.ctp:65
+#: View/BuildingRooms/admin_index.ctp:53 View/Buildings/admin_index.ctp:51
+#: View/Buildings/admin_recycle_bin.ctp:48 View/Categories/admin_index.ctp:90
+#: View/Categories/admin_recycle_bin.ctp:54 View/Categories/admin_tree.ctp:47
+#: View/Configs/admin_index.ctp:57 View/Downloads/admin_index.ctp:68
+#: View/Downloads/admin_recycle_bin.ctp:68 View/Elements/widget.post.ctp:15
+#: View/Groups/admin_index.ctp:53 View/Groups/admin_recycle_bin.ctp:50
+#: View/Groups/admin_tree.ctp:46 View/Links/admin_index.ctp:70
+#: View/Links/admin_recycle_bin.ctp:59 View/Logs/admin_index.ctp:53
+#: View/Posts/admin_index.ctp:69 View/Posts/admin_recycle_bin.ctp:69
+#: View/Tenants/admin_index.ctp:60 View/Tenants/admin_recycle_bin.ctp:59
+#: View/Users/admin_index.ctp:68 View/Users/admin_recycle_bin.ctp:68
+#: View/Widgets/admin_index.ctp:59
+msgid "No data found"
+msgstr "没有找到数据"
+
+#: View/BuildingBlocks/admin_recycle_bin.ctp:11
+#: View/BuildingResidents/admin_recycle_bin.ctp:11
+#: View/Buildings/admin_recycle_bin.ctp:11
+#: View/Categories/admin_recycle_bin.ctp:11
+#: View/Downloads/admin_recycle_bin.ctp:11
+#: View/Groups/admin_recycle_bin.ctp:11 View/Posts/admin_recycle_bin.ctp:12
+#: View/Tenants/admin_recycle_bin.ctp:8 View/Users/admin_recycle_bin.ctp:11
+msgid "Index"
+msgstr "列表"
+
+#: View/BuildingBlocks/admin_recycle_bin.ctp:42
+#: View/BuildingResidents/admin_recycle_bin.ctp:51
+#: View/Buildings/admin_recycle_bin.ctp:34
+#: View/Categories/admin_recycle_bin.ctp:40
+#: View/Downloads/admin_recycle_bin.ctp:54
+#: View/Groups/admin_recycle_bin.ctp:36 View/Links/admin_recycle_bin.ctp:36
+#: View/Posts/admin_recycle_bin.ctp:55 View/Tenants/admin_recycle_bin.ctp:45
+#: View/Users/admin_recycle_bin.ctp:54
+msgid "Recycle"
+msgstr "回收"
+
+#: View/BuildingBlocks/admin_recycle_bin.ctp:43
+#: View/BuildingResidents/admin_recycle_bin.ctp:52
+#: View/Buildings/admin_recycle_bin.ctp:35
+#: View/Categories/admin_recycle_bin.ctp:41
+#: View/Downloads/admin_recycle_bin.ctp:55
+#: View/Groups/admin_recycle_bin.ctp:37 View/Links/admin_recycle_bin.ctp:37
+#: View/Posts/admin_recycle_bin.ctp:56 View/Tenants/admin_recycle_bin.ctp:46
+#: View/Users/admin_recycle_bin.ctp:55
+msgid "Drop"
+msgstr "永久删除"
+
+#: View/BuildingBlocks/admin_view.ctp:3 View/BuildingBlocks/admin_view.ctp:28
+#: View/BuildingResidents/admin_view.ctp:6 View/Buildings/admin_view.ctp:2
+msgid "Building"
+msgstr "楼栋"
+
+#: View/BuildingBlocks/admin_view.ctp:4
+#: View/BuildingResidents/admin_view.ctp:8
+#: View/BuildingRooms/admin_view.ctp:10
+msgid "Building Block"
+msgstr "单元"
+
+#: View/BuildingBlocks/admin_view.ctp:25 View/BuildingRooms/admin_view.ctp:4
+#: View/BuildingRooms/admin_view.ctp:35 View/Categories/admin_view.ctp:5
+#: View/Configs/admin_view.ctp:4 View/Widgets/admin_view.ctp:4
+msgid "Id"
+msgstr "ID"
+
+#: View/BuildingBlocks/admin_view.ctp:26 View/BuildingRooms/admin_view.ctp:6
+#: View/Categories/admin_view.ctp:7 View/Configs/admin_view.ctp:6
+#: View/Tenants/admin_view.ctp:2
+msgid "Tenant"
+msgstr "租户"
+
+#: View/BuildingBlocks/admin_view.ctp:27 View/BuildingRooms/admin_view.ctp:8
+#: View/BuildingRooms/admin_view.ctp:37 View/Categories/admin_view.ctp:9
+#: View/Groups/admin_view.ctp:6 View/Links/admin_view.ctp:4
+#: View/Posts/admin_view.ctp:5 View/Tenants/admin_view.ctp:4
+#: View/Users/admin_view.ctp:7 View/Widgets/admin_view.ctp:10
+msgid "Deleted"
+msgstr "删除?"
+
+#: View/BuildingBlocks/admin_view.ctp:29
+#: View/BuildingResidents/admin_view.ctp:13
+#: View/BuildingRooms/admin_view.ctp:39 View/Categories/admin_view.ctp:21
+#: View/Configs/admin_view.ctp:10 View/Groups/admin_view.ctp:8
+#: View/Links/admin_view.ctp:8 View/Tenants/admin_view.ctp:8
+#: View/Users/admin_view.ctp:11 View/Widgets/admin_view.ctp:14
+msgid "Name"
+msgstr "名称"
+
+#: View/BuildingBlocks/admin_view.ctp:30
+#: View/BuildingResidents/admin_view.ctp:47
+#: View/BuildingRooms/admin_view.ctp:56 View/Tenants/admin_view.ctp:12
+msgid "Memo"
+msgstr "备注"
+
+#: View/BuildingBlocks/admin_view.ctp:31
+msgid "Floor Count"
+msgstr "单元层数"
+
+#: View/BuildingBlocks/admin_view.ctp:32
+msgid "Room Count"
+msgstr "每层房间数"
+
+#: View/BuildingBlocks/admin_view.ctp:33
+msgid "Resident Count"
+msgstr "入住人数"
+
+#: View/BuildingBlocks/admin_view.ctp:34
+msgid "Live Resident Count"
+msgstr "自住人数"
+
+#: View/BuildingBlocks/admin_view.ctp:35
+msgid "Rent Resident Count"
+msgstr "租住人数"
+
+#: View/BuildingBlocks/admin_view.ctp:36
+#: View/BuildingResidents/admin_view.ctp:49
+#: View/BuildingRooms/admin_view.ctp:16 View/BuildingRooms/admin_view.ctp:57
+#: View/Categories/admin_view.ctp:25 View/Configs/admin_view.ctp:20
+#: View/Groups/admin_view.ctp:12 View/Links/admin_view.ctp:12
+#: View/Posts/admin_view.ctp:29 View/Tenants/admin_view.ctp:14
+#: View/Users/admin_view.ctp:25 View/Widgets/admin_view.ctp:24
+msgid "Gmt Created"
+msgstr "创建时间"
+
+#: View/BuildingBlocks/admin_view.ctp:37 View/BuildingRooms/admin_view.ctp:18
+#: View/BuildingRooms/admin_view.ctp:58 View/Categories/admin_view.ctp:27
+#: View/Configs/admin_view.ctp:22 View/Groups/admin_view.ctp:10
+#: View/Links/admin_view.ctp:14 View/Posts/admin_view.ctp:31
+#: View/Tenants/admin_view.ctp:16 View/Users/admin_view.ctp:27
+#: View/Widgets/admin_view.ctp:26
+msgid "Gmt Deleted"
+msgstr "删除时间"
+
+#: View/BuildingBlocks/admin_view.ctp:38
+#: View/BuildingResidents/admin_view.ctp:51
+#: View/BuildingRooms/admin_view.ctp:20 View/BuildingRooms/admin_view.ctp:59
+#: View/Categories/admin_view.ctp:29 View/Configs/admin_view.ctp:24
+#: View/Groups/admin_view.ctp:14 View/Links/admin_view.ctp:16
+#: View/Posts/admin_view.ctp:33 View/Tenants/admin_view.ctp:18
+#: View/Users/admin_view.ctp:29 View/Widgets/admin_view.ctp:28
+msgid "Gmt Modified"
+msgstr "修改时间"
+
+#: View/BuildingResidents/admin_index.ctp:11
+msgid "-Select Ethnic Group-"
+msgstr "-选择民族-"
+
+#: View/BuildingResidents/admin_index.ctp:20
+msgid "-Select Political Status-"
+msgstr "-政治面貌-"
+
+#: View/BuildingResidents/admin_index.ctp:29
+msgid "-Select Gender-"
+msgstr "-选择性别-"
+
+#: View/BuildingResidents/admin_view.ctp:2
+msgid "Building Resident"
+msgstr "居民管理"
+
+#: View/BuildingResidents/admin_view.ctp:4
+#: View/BuildingResidents/admin_view.ctp:10
+#: View/BuildingRooms/admin_view.ctp:2
+msgid "Building Room"
+msgstr "房间"
+
+#: View/BuildingResidents/admin_view.ctp:15
+#: View/BuildingRooms/admin_view.ctp:40
+msgid "Gender"
+msgstr "性别"
+
+#: View/BuildingResidents/admin_view.ctp:17
+#: View/BuildingRooms/admin_view.ctp:41
+msgid "Id Card Number"
+msgstr "身份证号"
+
+#: View/BuildingResidents/admin_view.ctp:19
+#: View/BuildingRooms/admin_view.ctp:42
+msgid "Origin"
+msgstr "籍贯"
+
+#: View/BuildingResidents/admin_view.ctp:21
+#: View/BuildingRooms/admin_view.ctp:43
+msgid "Height"
+msgstr "身高"
+
+#: View/BuildingResidents/admin_view.ctp:23
+msgid "Ethnic Group"
+msgstr "民族"
+
+#: View/BuildingResidents/admin_view.ctp:25
+#: View/BuildingRooms/admin_view.ctp:45
+msgid "Religion"
+msgstr "宗教信仰"
+
+#: View/BuildingResidents/admin_view.ctp:27
+#: View/BuildingRooms/admin_view.ctp:46
+msgid "Family Status"
+msgstr "与户主关系"
+
+#: View/BuildingResidents/admin_view.ctp:29
+#: View/BuildingRooms/admin_view.ctp:47
+msgid "Marriage Status"
+msgstr "婚姻状况"
+
+#: View/BuildingResidents/admin_view.ctp:31
+#: View/BuildingRooms/admin_view.ctp:48
+msgid "Political Status"
+msgstr "政治面貌"
+
+#: View/BuildingResidents/admin_view.ctp:33
+#: View/BuildingRooms/admin_view.ctp:49
+msgid "Is Owner"
+msgstr "是否自住"
+
+#: View/BuildingResidents/admin_view.ctp:35
+#: View/BuildingRooms/admin_view.ctp:50 View/Users/admin_view.ctp:13
+msgid "Mobile"
+msgstr "电话"
+
+#: View/BuildingResidents/admin_view.ctp:37
+#: View/BuildingRooms/admin_view.ctp:51 View/Users/admin_view.ctp:15
+msgid "Email"
+msgstr "邮箱"
+
+#: View/BuildingResidents/admin_view.ctp:39
+#: View/BuildingRooms/admin_view.ctp:52
+msgid "Company"
+msgstr "工作单位"
+
+#: View/BuildingResidents/admin_view.ctp:41
+#: View/BuildingRooms/admin_view.ctp:53
+msgid "Specialty"
+msgstr "特长"
+
+#: View/BuildingResidents/admin_view.ctp:43
+#: View/BuildingRooms/admin_view.ctp:54
+msgid "Live Date"
+msgstr "入住日期"
+
+#: View/BuildingResidents/admin_view.ctp:45
+#: View/BuildingRooms/admin_view.ctp:55
+msgid "Live Reason"
+msgstr "入住原因"
+
+#: View/BuildingRooms/admin_ajax_index.ctp:3
+msgid "-Select Building Room-"
+msgstr "-选择房间-"
+
+#: View/BuildingRooms/admin_view.ctp:12
+msgid "Floor Number"
+msgstr "层号"
+
+#: View/BuildingRooms/admin_view.ctp:14
+msgid "Room Number"
+msgstr "房间号"
+
+#: View/BuildingRooms/admin_view.ctp:28
+msgid "Related Building Residents"
+msgstr "相关居民"
+
+#: View/BuildingRooms/admin_view.ctp:36 View/Widgets/admin_view.ctp:6
+msgid "Tenant Id"
+msgstr "租户ID"
+
+#: View/BuildingRooms/admin_view.ctp:38
+msgid "Building Room Id"
+msgstr "房间ID"
+
+#: View/BuildingRooms/admin_view.ctp:44
+msgid "Ethnic Group Id"
+msgstr "民族ID"
+
+#: View/BuildingRooms/admin_view.ctp:105
+msgid "New Building Resident"
+msgstr "添加居民"
+
+#: View/Categories/admin_add.ctp:4 View/Categories/admin_index.ctp:62
+#: View/Categories/admin_tree.ctp:24 View/Groups/admin_tree.ctp:24
+#: View/Posts/admin_add.ctp:4
+msgid "Add "
+msgstr "添加"
+
+#: View/Categories/admin_edit.ctp:4 View/Posts/admin_edit.ctp:4
+msgid "Edit "
+msgstr "删除"
+
+#: View/Categories/admin_index.ctp:14 View/Groups/admin_index.ctp:12
+msgid "Tree View"
+msgstr "树状视图"
+
+#: View/Categories/admin_index.ctp:45 View/Elements/categories.admin.ctp:6
+msgid "Add Child"
+msgstr "添加孩子"
+
+#: View/Categories/admin_index.ctp:81 View/Categories/admin_tree.ctp:38
+#: View/Groups/admin_tree.ctp:37
+msgid "Close"
+msgstr "关闭"
+
+#: View/Categories/admin_tree.ctp:11 View/Groups/admin_tree.ctp:11
+msgid "List View"
+msgstr "列表视图"
+
+#: View/Categories/admin_view.ctp:3
+msgid "Chapter"
+msgstr "章节"
+
+#: View/Categories/admin_view.ctp:11
+msgid "Parent Chapter"
+msgstr "父章节"
+
+#: View/Categories/admin_view.ctp:13
+msgid "Lft"
+msgstr "左边界"
+
+#: View/Categories/admin_view.ctp:15
+msgid "Rght"
+msgstr "右边界"
+
+#: View/Categories/admin_view.ctp:17
+msgid "Model"
+msgstr "Model"
+
+#: View/Categories/admin_view.ctp:19
+msgid "Foreign Key"
+msgstr "Foreign Key"
+
+#: View/Categories/admin_view.ctp:23
+msgid "Alias"
+msgstr "别名"
+
+#: View/Ckfinder/admin_index.ctp:2
+msgid "CKFinder"
+msgstr "资源管理器"
+
+#: View/Configs/admin_view.ctp:2
+msgid "Config"
+msgstr "配置"
+
+#: View/Configs/admin_view.ctp:8 View/Posts/admin_view.ctp:9
+msgid "Category"
+msgstr "分类"
+
+#: View/Configs/admin_view.ctp:12
+msgid "Value"
+msgstr "值"
+
+#: View/Configs/admin_view.ctp:14
+msgid "Description"
+msgstr "描述"
+
+#: View/Configs/admin_view.ctp:16
+msgid "Type"
+msgstr "类型"
+
+#: View/Configs/admin_view.ctp:18
+msgid "Options"
+msgstr "选项"
+
+#: View/Downloads/admin_add.ctp:5 View/Downloads/admin_edit.ctp:6
+#: View/Posts/admin_add.ctp:17 View/Posts/admin_edit.ctp:17
+msgid "Post Category"
+msgstr "文章分类"
+
+#: View/Downloads/admin_add.ctp:7 View/Downloads/admin_edit.ctp:8
+#: View/Posts/admin_add.ctp:18 View/Posts/admin_edit.ctp:18
+#: View/Posts/admin_view.ctp:23 View/Posts/view.ctp:22
+msgid "Publish Date"
+msgstr "发布日期"
+
+#: View/Downloads/admin_add.ctp:11 View/Downloads/admin_edit.ctp:13
+#: View/Users/admin_avatar.ctp:37
+msgid "File"
+msgstr "附件"
+
+#: View/Downloads/admin_add.ctp:14 View/Downloads/admin_edit.ctp:16
+#: View/Users/admin_avatar.ctp:44
+msgid "An error occured while transferring the file."
+msgstr "文件传输发生错误"
+
+#: View/Downloads/admin_add.ctp:15 View/Downloads/admin_edit.ctp:17
+#: View/Users/admin_avatar.ctp:45
+msgid "The file is invalid."
+msgstr "文件无效"
+
+#: View/Downloads/admin_add.ctp:16 View/Downloads/admin_edit.ctp:18
+#: View/Users/admin_avatar.ctp:46
+msgid "The file cannot be processed."
+msgstr "文件无法被处理"
+
+#: View/Downloads/admin_add.ctp:17 View/Downloads/admin_edit.ctp:19
+#: View/Users/admin_avatar.ctp:47
+msgid "The file cannot be transferred from or to location."
+msgstr "文件无法被转移"
+
+#: View/Downloads/admin_add.ctp:18 View/Downloads/admin_edit.ctp:20
+#: View/Users/admin_avatar.ctp:48
+msgid "Executable files cannot be uploaded."
+msgstr "不能上传可执行文件"
+
+#: View/Downloads/admin_add.ctp:19 View/Downloads/admin_add.ctp:20
+#: View/Downloads/admin_edit.ctp:21 View/Downloads/admin_edit.ctp:22
+#: View/Users/admin_avatar.ctp:49 View/Users/admin_avatar.ctp:50
+msgid "The file is too large."
+msgstr "文件太大"
+
+#: View/Downloads/admin_add.ctp:21 View/Downloads/admin_edit.ctp:23
+#: View/Users/admin_avatar.ctp:51
+msgid "The file has the wrong extension."
+msgstr "文件扩展名不对"
+
+#: View/Downloads/admin_add.ctp:22 View/Downloads/admin_edit.ctp:24
+#: View/Users/admin_avatar.ctp:52
+msgid "The file has the wrong MIME type."
+msgstr "文件类型不支持"
+
+#: View/Downloads/admin_index.ctp:39 View/Downloads/admin_recycle_bin.ctp:39
+#: View/Links/admin_index.ctp:33 View/Posts/admin_index.ctp:41
+#: View/Posts/admin_recycle_bin.ctp:41 View/Tenants/admin_index.ctp:32
+#: View/Tenants/admin_recycle_bin.ctp:32 View/Users/admin_index.ctp:38
+#: View/Users/admin_recycle_bin.ctp:39
+msgid "Click to toggle"
+msgstr "点击更改状态"
+
+#: View/Downloads/admin_index.ctp:42 View/Downloads/admin_recycle_bin.ctp:42
+#: View/Groups/admin_view.ctp:7 View/Links/admin_index.ctp:36
+#: View/Links/admin_view.ctp:5 View/Links/admin_view.ctp:7
+#: View/Posts/admin_index.ctp:44 View/Posts/admin_recycle_bin.ctp:44
+#: View/Tenants/admin_index.ctp:35 View/Tenants/admin_recycle_bin.ctp:35
+#: View/Tenants/admin_view.ctp:5 View/Tenants/admin_view.ctp:7
+#: View/Users/admin_index.ctp:41 View/Users/admin_recycle_bin.ctp:42
+#: View/Users/admin_view.ctp:8 View/Users/admin_view.ctp:10
+msgid "Yes"
+msgstr "是"
+
+#: View/Downloads/admin_index.ctp:46 View/Downloads/admin_recycle_bin.ctp:46
+#: View/Groups/admin_view.ctp:7 View/Links/admin_index.ctp:40
+#: View/Links/admin_view.ctp:5 View/Links/admin_view.ctp:7
+#: View/Posts/admin_index.ctp:48 View/Posts/admin_recycle_bin.ctp:48
+#: View/Tenants/admin_index.ctp:39 View/Tenants/admin_recycle_bin.ctp:39
+#: View/Tenants/admin_view.ctp:5 View/Tenants/admin_view.ctp:7
+#: View/Users/admin_index.ctp:45 View/Users/admin_recycle_bin.ctp:46
+#: View/Users/admin_view.ctp:8 View/Users/admin_view.ctp:10
+msgid "No"
+msgstr "否"
+
+#: View/Downloads/admin_index.ctp:53 View/Downloads/admin_recycle_bin.ctp:53
+msgid "Download"
+msgstr "下载"
+
+#: View/Downloads/admin_index.ctp:81 View/Downloads/admin_recycle_bin.ctp:81
+#: View/Posts/admin_view.ctp:13 View/Posts/view.ctp:21
+msgid "Click Count"
+msgstr "点击量"
+
+#: View/Downloads/admin_index.ctp:82 View/Downloads/admin_recycle_bin.ctp:82
+msgid "Download Count"
+msgstr "下载量"
+
+#: View/Downloads/index.ctp:37 View/Posts/index.ctp:37 View/Posts/view.ctp:38
+msgid "No data found!"
+msgstr "没有找到任何数据"
+
+#: View/Elements/auth.ctp:3
+msgid "Sorry"
+msgstr "抱歉"
+
+#: View/Elements/building_legend.ctp:3
+msgid "Empty Building"
+msgstr "空置"
+
+#: View/Elements/building_legend.ctp:4
+msgid "Full Building"
+msgstr "自住"
+
+#: View/Elements/building_legend.ctp:5
+msgid "Rent Building"
+msgstr "出租"
+
+#: View/Elements/categories.admin.ctp:8
+msgid "Remove"
+msgstr "删除"
+
+#: View/Elements/error.ctp:3
+msgid "Error"
+msgstr "出错啦"
+
+#: View/Elements/paginator.ctp:3
+msgid "«"
+msgstr "«"
+
+#: View/Elements/paginator.ctp:5
+msgid "»"
+msgstr "»"
+
+#: View/Elements/paginator.ctp:6
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr "共{:pages}页, 第{:page}页"
+
+#: View/Elements/success.ctp:3
+msgid "Success"
+msgstr "恭喜"
+
+#: View/Errors/error400.ctp:21 View/Errors/error400.ctp:23
+#: View/Errors/error500.ctp:21 View/Errors/error500.ctp:22
+msgid "cake"
+msgstr "cake"
+
+#: View/Groups/admin_index.ctp:37
+msgid "Permission"
+msgstr "分配权限"
+
+#: View/Groups/admin_permission.ctp:4
+msgid "Edit Group Permission"
+msgstr "分配权限"
+
+#: View/Groups/admin_view.ctp:2 View/Users/admin_view.ctp:5
+msgid "Group"
+msgstr "角色"
+
+#: View/Groups/admin_view.ctp:4
+msgid "Parent Group"
+msgstr "父角色"
+
+#: View/Layouts/admin.ctp:37 View/Layouts/default.responsive.ctp:37
+msgid "View Website"
+msgstr "回到首页"
+
+#: View/Layouts/admin.ctp:41 View/Users/admin_dashboard.ctp:2
+msgid "Dashboard"
+msgstr "控制台"
+
+#: View/Layouts/admin.ctp:43 View/Layouts/default.ctp:67
+#: View/Layouts/default.responsive.ctp:62
+msgid "About"
+msgstr "关于我们"
+
+#: View/Layouts/admin.ctp:44 View/Layouts/default.ctp:68
+#: View/Layouts/default.responsive.ctp:63
+msgid "Contact"
+msgstr "联系我们"
+
+#: View/Layouts/admin.ctp:48
+#, php-format
+msgid "Welcome %s"
+msgstr "欢迎%s"
+
+#: View/Layouts/admin.ctp:53
+msgid "User Profile"
+msgstr "用户档案"
+
+#: View/Layouts/admin.ctp:54 View/Users/admin_password.ctp:4
+#: View/Users/admin_password.ctp:9
+msgid "Change Password"
+msgstr "修改密码"
+
+#: View/Layouts/admin.ctp:55
+msgid "Logout"
+msgstr "注销"
+
+#: View/Layouts/default.ctp:62 View/Layouts/default.ctp:116
+#: View/Layouts/default.responsive.ctp:57
+msgid "Admin"
+msgstr "管理"
+
+#: View/Layouts/default.ctp:69 View/Layouts/default.responsive.ctp:64
+msgid "Support"
+msgstr "技术支持"
+
+#: View/Layouts/login.ctp:4
+msgid "User Login"
+msgstr "用户登录"
+
+#: View/Links/admin_index.ctp:57 View/Links/admin_recycle_bin.ctp:46
+msgid "previous"
+msgstr "上页"
+
+#: View/Links/admin_index.ctp:59 View/Links/admin_recycle_bin.ctp:48
+msgid "next"
+msgstr "下页"
+
+#: View/Links/admin_index.ctp:61 View/Links/admin_recycle_bin.ctp:50
+msgid ""
+"Page %page% of %pages%, showing %current% records out of %count% total, "
+"starting on record %start%, ending on %end%"
+msgstr ""
+"Page %page% of %pages%, showing %current% records out of %count% total, "
+"starting on record %start%, ending on %end%"
+
+#: View/Links/admin_view.ctp:2
+msgid "Link"
+msgstr "友情连接"
+
+#: View/Links/admin_view.ctp:6 View/Tenants/admin_view.ctp:6
+#: View/Users/admin_view.ctp:9
+msgid "Active"
+msgstr "启用?"
+
+#: View/Links/admin_view.ctp:10
+msgid "Url"
+msgstr "链接"
+
+#: View/Logs/admin_export.ctp:4 View/Logs/admin_export.ctp:10
+msgid "Export Log"
+msgstr "导出日志"
+
+#: View/Logs/admin_export.ctp:6
+msgid "since what time that those logs may interest you"
+msgstr "since what time that those logs may interest you"
+
+#: View/Logs/admin_export.ctp:7
+msgid "after what time that those logs may interest you"
+msgstr "after what time that those logs may interest you"
+
+#: View/Logs/admin_export.ctp:8
+msgid "how many logs do you wang to export, 500 at most"
+msgstr "how many logs do you wang to export, 500 at most"
+
+#: View/MiscPosts/admin_edit.ctp:12 View/Posts/admin_add.ctp:33
+msgid "Save"
+msgstr "保存"
+
+#: View/MiscPosts/admin_index.ctp:2
+msgid "Manage Misc Posts"
+msgstr "管理文案"
+
+#: View/Posts/admin_add.ctp:22 View/Posts/admin_edit.ctp:22
+msgid "Post Title"
+msgstr "新闻标题"
+
+#: View/Posts/admin_add.ctp:27 View/Posts/admin_edit.ctp:27
+msgid "Cover Number"
+msgstr "封面编号"
+
+#: View/Posts/admin_add.ctp:34
+msgid "Publish"
+msgstr "发布"
+
+#: View/Posts/admin_edit.ctp:33
+msgid "Save "
+msgstr "保存"
+
+#: View/Posts/admin_index.ctp:9 View/Posts/admin_recycle_bin.ctp:9
+msgid "-Select Category-"
+msgstr "-选择分类-"
+
+#: View/Posts/admin_view.ctp:7 View/Posts/view.ctp:20
+msgid "Author"
+msgstr "作者"
+
+#: View/Posts/admin_view.ctp:11
+msgid "Published"
+msgstr "发布?"
+
+#: View/Posts/admin_view.ctp:15
+msgid "Comment Count"
+msgstr "评论数"
+
+#: View/Posts/admin_view.ctp:17
+msgid "Title"
+msgstr "标题"
+
+#: View/Posts/admin_view.ctp:19
+msgid "Content"
+msgstr "内容"
+
+#: View/Posts/admin_view.ctp:21
+msgid "Images"
+msgstr "配图"
+
+#: View/Posts/admin_view.ctp:25
+msgid "Cover"
+msgstr "封面"
+
+#: View/Posts/admin_view.ctp:27
+msgid "Gmt Published"
+msgstr "发布时间"
+
+#: View/Posts/view.ctp:4
+msgid "Category Navigation"
+msgstr "类目导航"
+
+#: View/Tenants/admin_view.ctp:10
+msgid "Domain"
+msgstr "域名"
+
+#: View/Users/admin_avatar.ctp:15
+msgid "Existing Avatar"
+msgstr "已有头像"
+
+#: View/Users/admin_avatar.ctp:25
+msgid "No Avatar Yet"
+msgstr "还没有上传头像"
+
+#: View/Users/admin_avatar.ctp:30
+msgid "New Avatar"
+msgstr "添加头像"
+
+#: View/Users/admin_avatar.ctp:55
+msgid "Upload"
+msgstr "上传"
+
+#: View/Users/admin_avatar.ctp:56
+msgid "Clear"
+msgstr "清空"
+
+#: View/Users/admin_dashboard.ctp:6
+msgid "Welcome"
+msgstr "欢迎"
+
+#: View/Users/admin_dashboard.ctp:6
+msgid "Use menu on the left of the page"
+msgstr "请使用左侧的菜单导航"
+
+#: View/Users/admin_index.ctp:52
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: View/Users/admin_login.ctp:4
+msgid "Welcome Using"
+msgstr "欢迎使用"
+
+#: View/Users/admin_login.ctp:8
+msgid "Password"
+msgstr "密码"
+
+#: View/Users/admin_login.ctp:11
+msgid "Login"
+msgstr "用户登录"
+
+#: View/Users/admin_password.ctp:5
+msgid "Please enter your old password"
+msgstr "请输入旧密码"
+
+#: View/Users/admin_password.ctp:5
+msgid "Old Password"
+msgstr "旧密码"
+
+#: View/Users/admin_password.ctp:6
+msgid "Please enter the new password"
+msgstr "请输入新密码"
+
+#: View/Users/admin_password.ctp:6
+msgid "New Password"
+msgstr "新密码"
+
+#: View/Users/admin_password.ctp:7
+msgid "Please confirm the new password"
+msgstr "请确认新密码"
+
+#: View/Users/admin_password.ctp:7
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: View/Users/admin_profile.ctp:4
+msgid "Edit User Profile"
+msgstr "编辑档案"
+
+#: View/Users/admin_reset_password.ctp:2
+msgid "Rest Password"
+msgstr "重置密码"
+
+#: View/Users/admin_reset_password.ctp:3
+#, php-format
+msgid "Password for %s is set to %s"
+msgstr "用户%s的密码已被重置为%s"
+
+#: View/Users/admin_view.ctp:17
+msgid "Ip Last Login"
+msgstr "登录IP"
+
+#: View/Users/admin_view.ctp:19
+msgid "Ip Registered"
+msgstr "注册IP"
+
+#: View/Users/admin_view.ctp:21
+msgid "Gmt Last Login"
+msgstr "登录时间"
+
+#: View/Users/admin_view.ctp:23
+msgid "Gmt Registered"
+msgstr "注册时间"
+
+#: View/Widgets/admin_add.ctp:4
+msgid "Admin Add Widget"
+msgstr "添加部件"
+
+#: View/Widgets/admin_edit.ctp:4
+msgid "Admin Edit Widget"
+msgstr "编辑部件"
+
+#: View/Widgets/admin_view.ctp:2
+msgid "Widget"
+msgstr "部件"
+
+#: View/Widgets/admin_view.ctp:8
+msgid "Category Id"
+msgstr "分类ID"
+
+#: View/Widgets/admin_view.ctp:16
+msgid "Visible"
+msgstr "可见?"
+
+#: View/Widgets/admin_view.ctp:18
+msgid "Row"
+msgstr "行"
+
+#: View/Widgets/admin_view.ctp:20
+msgid "Column"
+msgstr "列"
+
+#: View/Widgets/admin_view.ctp:22
+msgid "Size"
+msgstr "大小"
+
+#~ msgid "Related Groups"
+#~ msgstr "相关角色"
+
+#~ msgid "Parent Id"
+#~ msgstr "父角色"
+
+#~ msgid "New Child Group"
+#~ msgstr "创建角色"
+
+#~ msgid "Related Users"
+#~ msgstr "相关用户"
+
+#~ msgid "Group Id"
+#~ msgstr "角色ID"
+
+#~ msgid "New User"
+#~ msgstr "创建用户"
+
+#~ msgid "Related Comments"
+#~ msgstr "相关评论"
+
+#~ msgid "Author Id"
+#~ msgstr "作者ID"
+
+#~ msgid "Post Id"
+#~ msgstr "文章ID"
+
+#~ msgid "Approved"
+#~ msgstr "已审核?"
+
+#~ msgid "Gmt Approved"
+#~ msgstr "审核时间"
+
+#~ msgid "New Comment"
+#~ msgstr "创建评论"
+
+#~ msgid "Related Attachments"
+#~ msgstr "相关附件"
+
+#~ msgid "Featured"
+#~ msgstr "推荐"
+
+#~ msgid "Dirname"
+#~ msgstr "路径"
+
+#~ msgid "Basename"
+#~ msgstr "文件名"
+
+#~ msgid "Filesize"
+#~ msgstr "文件大小"
+
+#~ msgid "Checksum"
+#~ msgstr "Checksum"
+
+#~ msgid "Alternative"
+#~ msgstr "文字说明"
+
+#~ msgid "New Attachment"
+#~ msgstr "创建附件"
+
+#~ msgid "Related Categories"
+#~ msgstr "相关分类"
+
+#~ msgid "Related Configs"
+#~ msgstr "相关配置"
+
+#~ msgid "Related Downloads"
+#~ msgstr "相关下载"
+
+#~ msgid "Related Links"
+#~ msgstr "相关友情链接"
+
+#~ msgid "New Link"
+#~ msgstr "创建友情链接"
+
+#~ msgid "Related Logs"
+#~ msgstr "相关日志"
+
+#~ msgid "User Id"
+#~ msgstr "用户ID"
+
+#~ msgid "Module"
+#~ msgstr "模块"
+
+#~ msgid "Username"
+#~ msgstr "用户名"
+
+#~ msgid "New Log"
+#~ msgstr "创建日志"
+
+#~ msgid "Related Posts"
+#~ msgstr "相关文章"
+
+#~ msgid "New Post"
+#~ msgstr "创建文章"
+
+#~ msgid "Related Widgets"
+#~ msgstr "相关部件"
+
+#~ msgid "User"
+#~ msgstr "用户"
+
+#~ msgid "Contact US"
+#~ msgstr "联系我们"
+
+#~ msgid "Related Building Rooms"
+#~ msgstr "相关房间"
+
+#~ msgid "Building Block Id"
+#~ msgstr "单元ID"
+
+#~ msgid "Related Building Blocks"
+#~ msgstr "相关单元"
+
+#~ msgid "Building Id"
+#~ msgstr "楼号"
+
+#~ msgid "Toggle Toolkit"
+#~ msgstr "Toggle Toolkit"
+
+#, fuzzy
+#~ msgid "Search Toolkit"
+#~ msgstr "搜索文章"
+
+#, fuzzy
+#~ msgid "Recycle Bin Toolkit"
+#~ msgstr "文章回收站"
+
+#, fuzzy
+#~ msgid "Recycle Toolkit"
+#~ msgstr "回收文章"
+
+#, fuzzy
+#~ msgid "Drop Toolkit"
+#~ msgstr "Toggle Toolkit"
+
+#~ msgid "Config deleted"
+#~ msgstr "配置删除成功"
+
+#~ msgid "Config was not deleted"
+#~ msgstr "配置删除失败"
+
+#~ msgid "View Config"
+#~ msgstr "查看配置"
+
+#~ msgid "Delete Config"
+#~ msgstr "删除配置"
+
+#~ msgid "Toggle Config"
+#~ msgstr "Toggle Config"
+
+#~ msgid "Search Config"
+#~ msgstr "搜索配置"
+
+#~ msgid "Recycle Bin Config"
+#~ msgstr "配置回收站"
+
+#~ msgid "Recycle Config"
+#~ msgstr "回收配置"
+
+#~ msgid "Drop Config"
+#~ msgstr "永久删除配置"
+
+#~ msgid " recycled"
+#~ msgstr "回收成功"
+
+#~ msgid " was not recycled"
+#~ msgstr "回收失败"
+
+#~ msgid " dropped"
+#~ msgstr "彻底删除成功"
+
+#~ msgid " was not dropped"
+#~ msgstr "彻底删除失败"
+
+#~ msgid "cake_console"
+#~ msgstr "cake_console"
+
+#~ msgid "Toggle Auth"
+#~ msgstr "Toggle Auth"
+
+#~ msgid "Search Auth"
+#~ msgstr "搜索权限"
+
+#~ msgid "Recycle Bin Auth"
+#~ msgstr "权限回收站"
+
+#~ msgid "Recycle Auth"
+#~ msgstr "回收权限"
+
+#~ msgid "Drop Auth"
+#~ msgstr "永久删除权限"
+
+#~ msgid "Toggle Ckfinder"
+#~ msgstr "Toggle Ckfinder"
+
+#~ msgid "Search Ckfinder"
+#~ msgstr "搜索资源"
+
+#~ msgid "Recycle Bin Ckfinder"
+#~ msgstr "资源回收站"
+
+#~ msgid "Recycle Ckfinder"
+#~ msgstr "回收资源"
+
+#~ msgid "Drop Ckfinder"
+#~ msgstr "永久删除资源"
+
+#~ msgid "Toggle Log"
+#~ msgstr "Toggle Log"
+
+#~ msgid "Search Log"
+#~ msgstr "搜索日志"
+
+#~ msgid "Recycle Log"
+#~ msgstr "回收日志"
+
+#~ msgid "Drop Log"
+#~ msgstr "永久删除日志"
+
+#~ msgid "Important Activities"
+#~ msgstr "重要活动"
+
+#~ msgid "Latest Activities"
+#~ msgstr "最新活动"
+
+#~ msgid "default"
+#~ msgstr "default"
+
+#~ msgid "Learn More"
+#~ msgstr "了解更多"
+
+#~ msgid "more"
+#~ msgstr "更多"
+
+#~ msgid "Plural Rule 1"
+#~ msgstr "Plural Rule 1"
+
+#~ msgid "Plural Rule 1 (from core)"
+#~ msgstr "Plural Rule 1 (from core)"
+
+#~ msgid "Some string with %s"
+#~ msgstr "Some string with %s"
+
+#~ msgid "Some string with %s %s"
+#~ msgstr "Some string with %s %s"
+
+#~ msgid "Testing %2$s %1$s"
+#~ msgstr "Testing %2$s %1$s"
+
+#~ msgid "Testing %.2f number"
+#~ msgstr "Testing %.2f number"
+
+#~ msgid "core"
+#~ msgstr "core"
+
+#~ msgid "No Translation needed"
+#~ msgstr "No Translation needed"
+
+#~ msgid "this is a \"quoted string\""
+#~ msgstr "this is a \"quoted string\""
+
+#~ msgid "Home"
+#~ msgstr "Home"
+
+#~ msgid "auditable"
+#~ msgstr "auditable"
+
+#~ msgid "comments"
+#~ msgstr "comments"
+
+#~ msgid "debug_kit"
+#~ msgstr "debug_kit"
+
+#~ msgid "What would you like to do?"
+#~ msgstr "What would you like to do?"
+
+#~ msgid "Invalid attachment"
+#~ msgstr "Invalid attachment"
+
+#~ msgid "migrations"
+#~ msgstr "migrations"
+
+#~ msgid "Migrations"
+#~ msgstr "Migrations"
+
+#~ msgid "Plugin name to be used"
+#~ msgstr "Plugin name to be used"
+
+#~ msgid "Force 'generate' to compare all tables."
+#~ msgstr "Force 'generate' to compare all tables."
+
+#~ msgid "Set db config <config>. Uses 'default' if none is specified."
+#~ msgstr "Set db config <config>. Uses 'default' if none is specified."
+
+#~ msgid ""
+#~ "Disables automatic creation of migrations table and running any internal "
+#~ "plugin migrations"
+#~ msgstr ""
+#~ "Disables automatic creation of migrations table and running any internal "
+#~ "plugin migrations"
+
+#~ msgid "Displays a status of all plugin and app migrations."
+#~ msgstr "Displays a status of all plugin and app migrations."
+
+#~ msgid "Bake a complete MVC. optional <name> of a Model"
+#~ msgstr "Bake a complete MVC. optional <name> of a Model"
+
+#~ msgid "Run a migration to given direction or version."
+#~ msgstr "Run a migration to given direction or version."
+
+#~ msgid "Generates a migration file."
+#~ msgstr "Generates a migration file."
+
+#~ msgid "utils"
+#~ msgstr "utils"
+
+#~ msgid ""
+#~ "Invalid setting for key: Use iso, name, iso3, numcode or printableName."
+#~ msgstr ""
+#~ "Invalid setting for key: Use iso, name, iso3, numcode or printableName."
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afghanistan"
+
+#~ msgid "Albania"
+#~ msgstr "Albania"
+
+#~ msgid "Algeria"
+#~ msgstr "Algeria"
+
+#~ msgid "American Samoa"
+#~ msgstr "American Samoa"
+
+#~ msgid "Andorra"
+#~ msgstr "Andorra"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Anguilla"
+#~ msgstr "Anguilla"
+
+#~ msgid "Antarctica"
+#~ msgstr "Antarctica"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antigua and Barbuda"
+
+#~ msgid "Argentina"
+#~ msgstr "Argentina"
+
+#~ msgid "Armenia"
+#~ msgstr "Armenia"
+
+#~ msgid "Aruba"
+#~ msgstr "Aruba"
+
+#~ msgid "Australia"
+#~ msgstr "Australia"
+
+#~ msgid "Austria"
+#~ msgstr "Austria"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Azerbaijan"
+
+#~ msgid "Bahamas"
+#~ msgstr "Bahamas"
+
+#~ msgid "Bahrain"
+#~ msgstr "Bahrain"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladesh"
+
+#~ msgid "Barbados"
+#~ msgstr "Barbados"
+
+#~ msgid "Belarus"
+#~ msgstr "Belarus"
+
+#~ msgid "Belgium"
+#~ msgstr "Belgium"
+
+#~ msgid "Belize"
+#~ msgstr "Belize"
+
+#~ msgid "Benin"
+#~ msgstr "Benin"
+
+#~ msgid "Bermuda"
+#~ msgstr "Bermuda"
+
+#~ msgid "Bhutan"
+#~ msgstr "Bhutan"
+
+#~ msgid "Bolivia"
+#~ msgstr "Bolivia"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bosnia and Herzegovina"
+
+#~ msgid "Botswana"
+#~ msgstr "Botswana"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Bouvet Island"
+
+#~ msgid "Brazil"
+#~ msgstr "Brazil"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "British Indian Ocean Territory"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Brunei Darussalam"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgaria"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Burkina Faso"
+
+#~ msgid "Burundi"
+#~ msgstr "Burundi"
+
+#~ msgid "Cambodia"
+#~ msgstr "Cambodia"
+
+#~ msgid "Cameroon"
+#~ msgstr "Cameroon"
+
+#~ msgid "Canada"
+#~ msgstr "Canada"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Cape Verde"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Cayman Islands"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Central African Republic"
+
+#~ msgid "Chad"
+#~ msgstr "Chad"
+
+#~ msgid "Chile"
+#~ msgstr "Chile"
+
+#~ msgid "China"
+#~ msgstr "China"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Christmas Island"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Cocos (Keeling) Islands"
+
+#~ msgid "Colombia"
+#~ msgstr "Colombia"
+
+#~ msgid "Comoros"
+#~ msgstr "Comoros"
+
+#~ msgid "Congo"
+#~ msgstr "Congo"
+
+#~ msgid "Congo, the Democratic Republic of the"
+#~ msgstr "Congo, the Democratic Republic of the"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Cook Islands"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Costa Rica"
+
+#~ msgid "Cote D'Ivoire"
+#~ msgstr "Cote D'Ivoire"
+
+#~ msgid "Croatia"
+#~ msgstr "Croatia"
+
+#~ msgid "Cuba"
+#~ msgstr "Cuba"
+
+#~ msgid "Cyprus"
+#~ msgstr "Cyprus"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Czech Republic"
+
+#~ msgid "Denmark"
+#~ msgstr "Denmark"
+
+#~ msgid "Djibouti"
+#~ msgstr "Djibouti"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominica"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Dominican Republic"
+
+#~ msgid "Ecuador"
+#~ msgstr "Ecuador"
+
+#~ msgid "Egypt"
+#~ msgstr "Egypt"
+
+#~ msgid "El Salvador"
+#~ msgstr "El Salvador"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Equatorial Guinea"
+
+#~ msgid "Eritrea"
+#~ msgstr "Eritrea"
+
+#~ msgid "Estonia"
+#~ msgstr "Estonia"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Ethiopia"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Falkland Islands (Malvinas)"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Faroe Islands"
+
+#~ msgid "Fiji"
+#~ msgstr "Fiji"
+
+#~ msgid "Finland"
+#~ msgstr "Finland"
+
+#~ msgid "France"
+#~ msgstr "France"
+
+#~ msgid "French Guiana"
+#~ msgstr "French Guiana"
+
+#~ msgid "French Polynesia"
+#~ msgstr "French Polynesia"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "French Southern Territories"
+
+#~ msgid "Gabon"
+#~ msgstr "Gabon"
+
+#~ msgid "Gambia"
+#~ msgstr "Gambia"
+
+#~ msgid "Georgia"
+#~ msgstr "Georgia"
+
+#~ msgid "Germany"
+#~ msgstr "Germany"
+
+#~ msgid "Ghana"
+#~ msgstr "Ghana"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Gibraltar"
+
+#~ msgid "Greece"
+#~ msgstr "Greece"
+
+#~ msgid "Greenland"
+#~ msgstr "Greenland"
+
+#~ msgid "Grenada"
+#~ msgstr "Grenada"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Guadeloupe"
+
+#~ msgid "Guam"
+#~ msgstr "Guam"
+
+#~ msgid "Guatemala"
+#~ msgstr "Guatemala"
+
+#~ msgid "Guinea"
+#~ msgstr "Guinea"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Guinea-Bissau"
+
+#~ msgid "Guyana"
+#~ msgstr "Guyana"
+
+#~ msgid "Haiti"
+#~ msgstr "Haiti"
+
+#~ msgid "Heard Island and Mcdonald Islands"
+#~ msgstr "Heard Island and Mcdonald Islands"
+
+#~ msgid "Holy See (Vatican City State)"
+#~ msgstr "Holy See (Vatican City State)"
+
+#~ msgid "Honduras"
+#~ msgstr "Honduras"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hong Kong"
+
+#~ msgid "Hungary"
+#~ msgstr "Hungary"
+
+#~ msgid "Iceland"
+#~ msgstr "Iceland"
+
+#~ msgid "India"
+#~ msgstr "India"
+
+#~ msgid "Indonesia"
+#~ msgstr "Indonesia"
+
+#~ msgid "Iran, Islamic Republic of"
+#~ msgstr "Iran, Islamic Republic of"
+
+#~ msgid "Iraq"
+#~ msgstr "Iraq"
+
+#~ msgid "Ireland"
+#~ msgstr "Ireland"
+
+#~ msgid "Israel"
+#~ msgstr "Israel"
+
+#~ msgid "Italy"
+#~ msgstr "Italy"
+
+#~ msgid "Jamaica"
+#~ msgstr "Jamaica"
+
+#~ msgid "Japan"
+#~ msgstr "Japan"
+
+#~ msgid "Jordan"
+#~ msgstr "Jordan"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Kazakhstan"
+
+#~ msgid "Kenya"
+#~ msgstr "Kenya"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Korea, Democratic People's Republic of"
+#~ msgstr "Korea, Democratic People's Republic of"
+
+#~ msgid "Korea, Republic of"
+#~ msgstr "Korea, Republic of"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuwait"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kyrgyzstan"
+
+#~ msgid "Lao People's Democratic Republic"
+#~ msgstr "Lao People's Democratic Republic"
+
+#~ msgid "Latvia"
+#~ msgstr "Latvia"
+
+#~ msgid "Lebanon"
+#~ msgstr "Lebanon"
+
+#~ msgid "Lesotho"
+#~ msgstr "Lesotho"
+
+#~ msgid "Liberia"
+#~ msgstr "Liberia"
+
+#~ msgid "Libyan Arab Jamahiriya"
+#~ msgstr "Libyan Arab Jamahiriya"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Liechtenstein"
+
+#~ msgid "Lithuania"
+#~ msgstr "Lithuania"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Luxembourg"
+
+#~ msgid "Macao"
+#~ msgstr "Macao"
+
+#~ msgid "Macedonia, the Former Yugoslav Republic of"
+#~ msgstr "Macedonia, the Former Yugoslav Republic of"
+
+#~ msgid "Madagascar"
+#~ msgstr "Madagascar"
+
+#~ msgid "Malawi"
+#~ msgstr "Malawi"
+
+#~ msgid "Malaysia"
+#~ msgstr "Malaysia"
+
+#~ msgid "Maldives"
+#~ msgstr "Maldives"
+
+#~ msgid "Mali"
+#~ msgstr "Mali"
+
+#~ msgid "Malta"
+#~ msgstr "Malta"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Marshall Islands"
+
+#~ msgid "Martinique"
+#~ msgstr "Martinique"
+
+#~ msgid "Mauritania"
+#~ msgstr "Mauritania"
+
+#~ msgid "Mauritius"
+#~ msgstr "Mauritius"
+
+#~ msgid "Mayotte"
+#~ msgstr "Mayotte"
+
+#~ msgid "Mexico"
+#~ msgstr "Mexico"
+
+#~ msgid "Micronesia, Federated States of"
+#~ msgstr "Micronesia, Federated States of"
+
+#~ msgid "Moldova, Republic of"
+#~ msgstr "Moldova, Republic of"
+
+#~ msgid "Monaco"
+#~ msgstr "Monaco"
+
+#~ msgid "Mongolia"
+#~ msgstr "Mongolia"
+
+#~ msgid "Montserrat"
+#~ msgstr "Montserrat"
+
+#~ msgid "Morocco"
+#~ msgstr "Morocco"
+
+#~ msgid "Mozambique"
+#~ msgstr "Mozambique"
+
+#~ msgid "Myanmar"
+#~ msgstr "Myanmar"
+
+#~ msgid "Namibia"
+#~ msgstr "Namibia"
+
+#~ msgid "Nauru"
+#~ msgstr "Nauru"
+
+#~ msgid "Nepal"
+#~ msgstr "Nepal"
+
+#~ msgid "Netherlands"
+#~ msgstr "Netherlands"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Netherlands Antilles"
+
+#~ msgid "New Caledonia"
+#~ msgstr "New Caledonia"
+
+#~ msgid "New Zealand"
+#~ msgstr "New Zealand"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Nicaragua"
+
+#~ msgid "Niger"
+#~ msgstr "Niger"
+
+#~ msgid "Nigeria"
+#~ msgstr "Nigeria"
+
+#~ msgid "Niue"
+#~ msgstr "Niue"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Norfolk Island"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Northern Mariana Islands"
+
+#~ msgid "Norway"
+#~ msgstr "Norway"
+
+#~ msgid "Oman"
+#~ msgstr "Oman"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistan"
+
+#~ msgid "Palau"
+#~ msgstr "Palau"
+
+#~ msgid "Palestinian Territory, Occupied"
+#~ msgstr "Palestinian Territory, Occupied"
+
+#~ msgid "Panama"
+#~ msgstr "Panama"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Papua New Guinea"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paraguay"
+
+#~ msgid "Peru"
+#~ msgstr "Peru"
+
+#~ msgid "Philippines"
+#~ msgstr "Philippines"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Pitcairn"
+
+#~ msgid "Poland"
+#~ msgstr "Poland"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugal"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Puerto Rico"
+
+#~ msgid "Qatar"
+#~ msgstr "Qatar"
+
+#~ msgid "Reunion"
+#~ msgstr "Reunion"
+
+#~ msgid "Romania"
+#~ msgstr "Romania"
+
+#~ msgid "Russian Federation"
+#~ msgstr "Russian Federation"
+
+#~ msgid "Rwanda"
+#~ msgstr "Rwanda"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Saint Helena"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Saint Kitts and Nevis"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Saint Lucia"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "Saint Pierre and Miquelon"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Saint Vincent and the Grenadines"
+
+#~ msgid "Samoa"
+#~ msgstr "Samoa"
+
+#~ msgid "San Marino"
+#~ msgstr "San Marino"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "Sao Tome and Principe"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Saudi Arabia"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegal"
+
+#~ msgid "Serbia and Montenegro"
+#~ msgstr "Serbia and Montenegro"
+
+#~ msgid "Seychelles"
+#~ msgstr "Seychelles"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Sierra Leone"
+
+#~ msgid "Singapore"
+#~ msgstr "Singapore"
+
+#~ msgid "Slovakia"
+#~ msgstr "Slovakia"
+
+#~ msgid "Slovenia"
+#~ msgstr "Slovenia"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Solomon Islands"
+
+#~ msgid "Somalia"
+#~ msgstr "Somalia"
+
+#~ msgid "South Africa"
+#~ msgstr "South Africa"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "South Georgia and the South Sandwich Islands"
+
+#~ msgid "Spain"
+#~ msgstr "Spain"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+#~ msgid "Sudan"
+#~ msgstr "Sudan"
+
+#~ msgid "Suriname"
+#~ msgstr "Suriname"
+
+#~ msgid "Svalbard and Jan Mayen"
+#~ msgstr "Svalbard and Jan Mayen"
+
+#~ msgid "Swaziland"
+#~ msgstr "Swaziland"
+
+#~ msgid "Sweden"
+#~ msgstr "Sweden"
+
+#~ msgid "Switzerland"
+#~ msgstr "Switzerland"
+
+#~ msgid "Syrian Arab Republic"
+#~ msgstr "Syrian Arab Republic"
+
+#~ msgid "Taiwan, Province of China"
+#~ msgstr "Taiwan, Province of China"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Tajikistan"
+
+#~ msgid "Tanzania, United Republic of"
+#~ msgstr "Tanzania, United Republic of"
+
+#~ msgid "Thailand"
+#~ msgstr "Thailand"
+
+#~ msgid "Timor-Leste"
+#~ msgstr "Timor-Leste"
+
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
+#~ msgid "Tokelau"
+#~ msgstr "Tokelau"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Trinidad and Tobago"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tunisia"
+
+#~ msgid "Turkey"
+#~ msgstr "Turkey"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Turkmenistan"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Turks and Caicos Islands"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Tuvalu"
+
+#~ msgid "Uganda"
+#~ msgstr "Uganda"
+
+#~ msgid "Ukraine"
+#~ msgstr "Ukraine"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "United Arab Emirates"
+
+#~ msgid "United Kingdom"
+#~ msgstr "United Kingdom"
+
+#~ msgid "United States"
+#~ msgstr "United States"
+
+#~ msgid "Uruguay"
+#~ msgstr "Uruguay"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Uzbekistan"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatu"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezuela"
+
+#~ msgid "Viet Nam"
+#~ msgstr "Viet Nam"
+
+#~ msgid "Virgin Islands, British"
+#~ msgstr "Virgin Islands, British"
+
+#~ msgid "Virgin Islands, U.s."
+#~ msgstr "Virgin Islands, U.s."
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Wallis and Futuna"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Western Sahara"
+
+#~ msgid "Yemen"
+#~ msgstr "Yemen"
+
+#~ msgid "Zambia"
+#~ msgstr "Zambia"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Zimbabwe"
+
+#~ msgid "Invalid argument #1: %s is not a valid %s identifyer."
+#~ msgstr "Invalid argument #1: %s is not a valid %s identifyer."
+
+#~ msgid "btn-success"
+#~ msgstr "btn-success"
+
+#~ msgid "remove"
+#~ msgstr "remove"
+
+#~ msgid "CakePHP: the rapid development php framework:"
+#~ msgstr "CakePHP: the rapid development php framework:"
+
+#~ msgid "CakePHP: the rapid development php framework"
+#~ msgstr "CakePHP: the rapid development php framework"
+
+#~ msgid "This is a translatable string"
+#~ msgstr "This is a translatable string"
+
+#~ msgid "Editing this Page"
+#~ msgstr "Editing this Page"
+
+#~ msgid "You have %d new message."
+#~ msgstr "You have %d new message."
+
+#~ msgid ""
+#~ "Hot features!\n"
+#~ " - No Configuration: Set-up the database and let the magic begin\n"
+#~ " - Extremely Simple: Just look at the name...It's Cake\n"
+#~ " - Active, Friendly Community: Join us #cakephp on IRC. We'd love to help "
+#~ "you get started"
+#~ msgstr ""
+#~ "Hot features!\n"
+#~ " - No Configuration: Set-up the database and let the magic begin\n"
+#~ " - Extremely Simple: Just look at the name...It's Cake\n"
+#~ " - Active, Friendly Community: Join us #cakephp on IRC. We'd love to help "
+#~ "you get started"
+
+#~ msgid "PCRE has not been compiled with Unicode support."
+#~ msgstr "PCRE has not been compiled with Unicode support."
+
+#~ msgid ""
+#~ "Recompile PCRE with Unicode support by adding <code>--enable-unicode-"
+#~ "properties</code> when configuring"
+#~ msgstr ""
+#~ "Recompile PCRE with Unicode support by adding <code>--enable-unicode-"
+#~ "properties</code> when configuring"
+
+#~ msgid "Hide"
+#~ msgstr "Hide"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Textual replacement"
+#~ msgstr "Textual replacement"
+
+#~ msgid "A textual replacement must be provided."
+#~ msgstr "A textual replacement must be provided."
+
+#~ msgid "Release"
+#~ msgstr "Release"
+
+#~ msgid "Chapter deleted"
+#~ msgstr "Chapter deleted"
+
+#~ msgid "Chapter was not deleted"
+#~ msgstr "Chapter was not deleted"
+
+#~ msgid "Log deleted"
+#~ msgstr "Log deleted"
+
+#~ msgid "View Log"
+#~ msgstr "View Log"
+
+#~ msgid "Required"
+#~ msgstr "Required"
+
+#~ msgid "Parent Category"
+#~ msgstr "Parent Category"
+
+#~ msgid "-Select Parent Group-"
+#~ msgstr "-Select Parent Group-"
+
+#~ msgid "Keyword"
+#~ msgstr "Keyword"
+
+#~ msgid "Log"
+#~ msgstr "Log"
+
+#~ msgid "Publish Post"
+#~ msgstr "Publish Post"
+
+#~ msgid "Save Changes"
+#~ msgstr "Save Changes"
+
+#~ msgid "Post"
+#~ msgstr "Post"
+
+#~ msgid "Deactivate"
+#~ msgstr "Deactivate"
+
+#~ msgid "Activate"
+#~ msgstr "Activate"
+
+#~ msgid "Part No"
+#~ msgstr "Part No"
+
+#~ msgid "Quantity"
+#~ msgstr "Quantity"

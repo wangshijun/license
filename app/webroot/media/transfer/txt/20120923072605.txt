@@ -1,0 +1,64 @@
+问题1，用C语言实现一个revert函数，它的功能是将输入的字符串在原串上倒序后返回。
+就像直接把数组倒序排列1样, 假设字符串长度为n, 需要循环n/2次, 依次交换s[i]和s[n-i-1];
+
+问题2 编程：用C语言实现函数void * memmove(void *dest,const void *src,size_t n)。
+首先将dest, src强制转换为指针, 然后在<n的情况下, 不断increment指针;
+
+问题3 英文拼写纠错：在用户输入英文单词时，经常发生错误，我们需要对其进行纠错。假设已经有一个包含了正确英文单词的词典，请你设计一个拼写纠错的程序。（1）请描述你解决这个问题的思路；（2）请给出主要的处理流程，算法，以及算法的复杂度；（3）请描述可能的改进（改进的方向如效果，性能等等，这是一个开放问题）。
+
+问题4: 数组求差: 如何高效的计算两个数组的差集, 即array1中有而array2中没有的东西, 有两种解决办法:
+	1. 如果给的两个数组都是排好顺序的, 用下面的伪代码(类似于merge srot)
+	ix1 = 0
+	ix2 = 0
+	diff = new array
+	while ix2 < length(array2)
+	  while (ix1 < length(array1)) and (array1[ix1] != array2[ix2])
+		 add array1[ix1] to diff
+		 ix1 = ix1 + 1
+	  ix1 = ix1 + 1
+	  ix2 = ix2 + i
+
+	return diff
+
+	算法复杂度为O(n)
+
+	2. 如果两个数组没有排序, 用hashtable来计数, 先记array1中的, 再记array2中的, 然后找到计数为1的就是差集, 复杂度为O(n)
+	hash = new hash
+	diff = new array
+
+	for each element in array1
+	  hash[element] = 1
+
+	for each element in array2
+	  hash[element] = hash[element] + 1
+
+	for each key in hash
+	  if hash[key] == 1
+		add hash[key] to diff
+
+给你一个单词a，如果通过交换单词中字母的顺序可以得到另外的单词b，那么定义b是a的兄弟单词。现在给你一个字典，用户输入一个单词，让你根据字典找出这个单词有多少个兄弟单词。===> 信息指纹的作用
+
+Request Headers
+	Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+	Accept-Charset:ISO-8859-1,utf-8;q=0.7,*;q=0.3
+	Accept-Encoding:gzip,deflate,sdch
+	Accept-Language:en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4
+	Cache-Control:max-age=0
+	Connection:keep-alive
+	Cookie:QbWr_7cab_saltkey=62qXJfzF; QbWr_7cab_lastvisit=1342388407; QbWr_7cab_visitedfid=73; PHPSESSID=f60bb188d7739f313876777ce4fee10e; QbWr_7cab_liketid=0%7C52139; QbWr_7cab_viewid=tid_52139; QbWr_7cab_sid=WvXSxJ; QbWr_7cab_lastact=1342400919%09home.php%09misc; pgv_pvi=6554262487; pgv_info=ssi=s3395539362; jiathis_rdc=%7B%22http%3A//www.usr.cc/forum.php%3Fmod%3Dviewthread%26tid%3D52286%22%3A0%7C1342392014031%2C%22http%3A//www.usr.cc/thread-52139-1-1.html%22%3A%220%7C1342400921615%22%7D; Hm_lvt_b2e0c792ad68362d6dd72f0dc9a7be61=1342400922057; Hm_lpvt_b2e0c792ad68362d6dd72f0dc9a7be61=1342400922057
+	Host:www.usr.cc
+	Referer:http://www.usr.cc/forum.php?mod=viewthread&tid=52286
+	User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11
+Response Headers
+	Cache-Control:no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+	Connection:close
+	Content-Encoding:gzip
+	Content-Type:text/html; charset=gbk
+	Date:Mon, 16 Jul 2012 02:07:34 GMT
+	Expires:Thu, 19 Nov 1981 08:52:00 GMT
+	Pragma:no-cache
+	Server:Apache/2.2.3 (Red Hat)
+	Set-Cookie:QbWr_7cab_sid=7X997m; expires=Tue, 17-Jul-2012 02:07:34 GMT; path=/; domain=usr.cc, QbWr_7cab_lastact=1342404454%09forum.php%09viewthread; expires=Tue, 17-Jul-2012 02:07:34 GMT; path=/; domain=usr.cc, QbWr_7cab_viewid=tid_52139; path=/; domain=usr.cc, QbWr_7cab_stats_qc_reg=deleted; expires=Sun, 17-Jul-2011 02:07:33 GMT; path=/; domain=usr.cc, QbWr_7cab_cloudstatpost=deleted; expires=Sun, 17-Jul-2011 02:07:33 GMT; path=/; domain=usr.cc, xwb_tips_type=deleted; expires=Sun, 17-Jul-2011 02:07:34 GMT, QbWr_7cab_sid=7X997m; expires=Tue, 17-Jul-2012 02:07:34 GMT; path=/; domain=usr.cc
+	Transfer-Encoding:chunked
+	Vary:Accept-Encoding
+	X-Powered-By:PHP/5.2.9
