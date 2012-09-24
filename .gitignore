@@ -4,3 +4,5 @@ app/tmp/*
 app/config/database.php
 *.sublime-*
 !empty
+*-bak
+*.bak
