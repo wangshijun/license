@@ -7,12 +7,12 @@
  * PHP 5
  *
  * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright 2005-2012, Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * Copyright 2005-2011, Cake Software Foundation, Inc. (http://cakefoundation.org)
  *
  * Licensed under The MIT License
  * Redistributions of files must retain the above copyright notice.
  *
- * @copyright     Copyright 2005-2012, Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @copyright     Copyright 2005-2011, Cake Software Foundation, Inc. (http://cakefoundation.org)
  * @link          http://cakephp.org CakePHP(tm) Project
  * @package       app.Config
  * @since         CakePHP(tm) v 0.2.9
@@ -41,7 +41,7 @@
  *
  * Options:
  *
- * - `handler` - callback - The callback to handle errors. You can set this to any callable type,
+ * - `handler` - callback - The callback to handle errors. You can set this to any callback type,
  *    including anonymous functions.
  * - `level` - int - The level of errors you are interested in capturing.
  * - `trace` - boolean - Include stack traces for errors in log files.
@@ -110,7 +110,7 @@
  *	`manager_index()` and `/manager/controller/index`
  *
  */
-	//Configure::write('Routing.prefixes', array('admin'));
+	Configure::write('Routing.prefixes', array('admin'));
 
 /**
  * Turn off all caching application-wide.
@@ -184,12 +184,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'sdfowjiugkjpowisdsfjskdfjkw');
+	Configure::write('Security.salt', 'sjdfkjsf@#$OJIONB)234234');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '13748734827348789583495');
+	Configure::write('Security.cipherSeed', '1239102392349203777');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
@@ -229,7 +229,7 @@
  * Uncomment this line and correct your server timezone to fix
  * any date & time related errors.
  */
-	//date_default_timezone_set('UTC');
+	date_default_timezone_set('PRC');
 
 /**
  * Pick the caching engine to use.  If APC is enabled use it.
@@ -251,7 +251,7 @@ if (Configure::read('debug') >= 1) {
 }
 
 // Prefix each application on the same server with a different string, to avoid Memcache and APC conflicts.
-$prefix = 'myapp_';
+$prefix = 'easy_license_';
 
 /**
  * Configure the cache used for general framework caching.  Path information,
@@ -276,3 +276,42 @@ Cache::config('_cake_model_', array(
 	'serialize' => ($engine === 'File'),
 	'duration' => $duration
 ));
+
+/**
+ * 首页新闻板块的缓存
+ */
+Cache::config('short', array(
+    'engine' => 'File',
+    'duration' => '+2 hours',
+    'path' => CACHE,
+    'prefix' => 'short_',
+));
+
+/**
+ * 友情链接等缓存
+ */
+Cache::config('long', array(
+    'engine' => 'File',
+    'duration' => '+1 week',
+    'probability' => 100,
+    'prefix' => 'long_',
+));
+
+// 根租户ID, 可以帮助管理其他用户
+define('ROOT_TENANT_ID', 1);
+
+/**
+ * 应用程序全局配置
+ */
+Configure::write('Config.language', 'chi');
+Configure::write('SessionKey', 'ActiveUser');
+Configure::write('App.name', '易玥软件授权系统');
+Configure::write('App.company', '易科技网络技术有限公司');
+
+// Load Environment Dependent config files
+Configure::load('clusters');
+Configure::load('misc');
+
+require_once(APP . 'Config' . DS . 'basics.php');
+
+load_cluster_config('core');
