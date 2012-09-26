@@ -1,3 +1,11 @@
+<div class="hero-unit">
+	<h1><?php echo Configure::read('App.name'); ?></h1>
+	<p><?php echo date('Y-m-d'); ?></p>
+	<p>
+		<a class="btn btn-primary btn-large"><?php echo __('Coming Soon'); ?></a>
+	</p>
+</div>
+
 <!-- 背景图加上4个按钮 -->
 <?php foreach ($widgets as $i => $row): ?>
 <div class="row clearfix">

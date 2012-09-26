@@ -6,3 +6,4 @@ app/config/database.php
 !empty
 *-bak
 *.bak
+Thumbs.db

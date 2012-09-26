@@ -317,21 +317,6 @@ CREATE TABLE IF NOT EXISTS `posts` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `schema_migrations`
---
-
-DROP TABLE IF EXISTS `schema_migrations`;
-CREATE TABLE IF NOT EXISTS `schema_migrations` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `class` varchar(33) NOT NULL,
-  `type` varchar(50) NOT NULL,
-  `created` datetime NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `tenants`
 --
 
@@ -435,15 +420,15 @@ CREATE TABLE IF NOT EXISTS `widgets` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='栏目表';
 
 -- --------------------------------------------------------
--- 社区管理系统业务模块需要的表结构(楼>单元>户>居民)
+-- 产品授权管理相关信息表
 -- --------------------------------------------------------
-DROP TABLE IF EXISTS `buildings`;
-CREATE TABLE IF NOT EXISTS `buildings` (
+DROP TABLE IF EXISTS `products`;
+CREATE TABLE IF NOT EXISTS `products` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
   `tenant_id` int(11) NOT NULL COMMENT '租户ID',
   `deleted` tinyint(1) NOT NULL DEFAULT '0' COMMENT '是否删除(1表示已删除,0表示未删除)',
-  `name` char(255) NOT NULL COMMENT '楼名称',
-  `memo` char(255) NOT NULL DEFAULT '' COMMENT '备注',
+  `name` char(255) NOT NULL COMMENT '产品名称',
+  `description` text NOT NULL DEFAULT '' COMMENT '产品说明',
   `gmt_created` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '创建时间',
   `gmt_deleted` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '删除时间',
   `gmt_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
@@ -451,38 +436,35 @@ CREATE TABLE IF NOT EXISTS `buildings` (
   KEY `idx_tenant_id` (`tenant_id`,`id`),
   KEY `idx_tenant_deleted_id` (`tenant_id`,`deleted`,`id`),
   KEY `idx_tenant_name_id` (`tenant_id`,`name`,`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='楼表';
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='产品表';
 
-DROP TABLE IF EXISTS `building_blocks`;
-CREATE TABLE IF NOT EXISTS `building_blocks` (
+DROP TABLE IF EXISTS `product_prices`;
+CREATE TABLE IF NOT EXISTS `product_prices` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
   `tenant_id` int(11) NOT NULL COMMENT '租户ID',
   `deleted` tinyint(1) NOT NULL DEFAULT '0' COMMENT '是否删除(1表示已删除,0表示未删除)',
-  `building_id` int(11) NOT NULL COMMENT '楼号ID',
-  `name` char(255) NOT NULL COMMENT '单元名称',
-  `memo` char(255) NOT NULL DEFAULT '' COMMENT '备注',
-  `floor_count` char(255) NOT NULL COMMENT '单元层数',
-  `room_count` char(255) NOT NULL COMMENT '单元每层户数',
+  `product_id` int(11) NOT NULL COMMENT '楼号ID',
+  `price` int(11) NOT NULL COMMENT '价格(元)',
+  `name` char(255) NOT NULL COMMENT '定价名称',
+  `description` text NOT NULL DEFAULT '' COMMENT '定价说明',
   `gmt_created` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '创建时间',
   `gmt_deleted` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '删除时间',
   `gmt_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
   PRIMARY KEY (`id`),
   KEY `idx_tenant_id` (`tenant_id`,`id`),
   KEY `idx_tenant_deleted_id` (`tenant_id`,`deleted`,`id`),
-  KEY `idx_tenant_building_id_id` (`tenant_id`,`building_id`,`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='楼中单元表';
+  KEY `idx_tenant_building_id_id` (`tenant_id`,`product_id`,`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='产品定价表';
 
-DROP TABLE IF EXISTS `building_rooms`;
-CREATE TABLE IF NOT EXISTS `building_rooms` (
+DROP TABLE IF EXISTS `product_licenses`;
+CREATE TABLE IF NOT EXISTS `product_licenses` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
   `tenant_id` int(11) NOT NULL COMMENT '租户ID',
   `deleted` tinyint(1) NOT NULL DEFAULT '0' COMMENT '是否删除(1表示已删除,0表示未删除)',
-  `building_block_id` int(11) NOT NULL COMMENT '单元ID',
-  `floor_number` char(255) NOT NULL COMMENT '住在哪层',
-  `room_number` char(255) NOT NULL COMMENT '住在哪间',
-  `resident_count` int(11) NOT NULL DEFAULT 0 COMMENT '居住人数',
-  `live_resident_count` int(11) NOT NULL DEFAULT 0 COMMENT '自住人数',
-  `rent_resident_count` int(11) NOT NULL DEFAULT 0 COMMENT '租住人数',
+  `product_id` int(11) NOT NULL COMMENT '产品ID',
+  `customer_name` char(255) NOT NULL COMMENT '客户名称',
+  `php_uname` char(255) NOT NULL COMMENT '安装的机器信息',
+  `license_key` char(255) NOT NULL COMMENT '授权码',
   `gmt_created` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '创建时间',
   `gmt_deleted` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '删除时间',
   `gmt_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
@@ -490,43 +472,7 @@ CREATE TABLE IF NOT EXISTS `building_rooms` (
   KEY `idx_tenant_id` (`tenant_id`,`id`),
   KEY `idx_tenant_deleted_id` (`tenant_id`,`deleted`,`id`),
   KEY `idx_tenant_building_block_id` (`tenant_id`,`building_block_id`,`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='单元中的户表';
-
-DROP TABLE IF EXISTS `building_residents`;
-CREATE TABLE IF NOT EXISTS `building_residents` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
-  `tenant_id` int(11) NOT NULL COMMENT '租户ID',
-  `deleted` tinyint(1) NOT NULL DEFAULT '0' COMMENT '是否删除(1表示已删除,0表示未删除)',
-  `building_id` int(11) NOT NULL COMMENT '楼号ID',
-  `building_block_id` int(11) NOT NULL COMMENT '单元ID',
-  `building_room_id` int(11) NOT NULL COMMENT '房间ID',
-  `name` char(255) NOT NULL COMMENT '姓名',
-  `gender` tinyint(1) NOT NULL COMMENT '性别(1表示男性,0表示女性)',
-  `id_card_number` char(32) NOT NULL COMMENT '身份证号码',
-  `origin` char(255) NOT NULL DEFAULT '' COMMENT '籍贯',
-  `height` int(11) NOT NULL DEFAULT '0' COMMENT '身高',
-  `ethnic_group_id` int(11) NOT NULL COMMENT '民族',
-  `religion` char(255) NOT NULL DEFAULT '' COMMENT '宗教信仰',
-  `family_status` int(11) NOT NULL COMMENT '与户主关系(0户主,1子女,2配偶,3父母,4其他)',
-  `marriage_status` char(255) NOT NULL DEFAULT '' COMMENT '婚姻状况',
-  `political_status` int(11) NOT NULL DEFAULT '0' COMMENT '政治面貌(0群众,1团员,2党员,3民主党派,4其他)',
-  `is_owner` int(11) NOT NULL DEFAULT '1' COMMENT '居住状态(1表示自住,0表示租住)',
-  `mobile` char(11) NOT NULL DEFAULT '' COMMENT '电话',
-  `email` char(255) NOT NULL DEFAULT '' COMMENT '邮箱',
-  `company` char(255) NOT NULL DEFAULT '' COMMENT '工作单位',
-  `specialty` char(255) NOT NULL DEFAULT '' COMMENT '特长',
-  `live_date` char(32) NOT NULL DEFAULT '' COMMENT '居住起始日期',
-  `live_reason` char(255) NOT NULL DEFAULT '' COMMENT '暂住事由',
-  `memo` char(255) NOT NULL DEFAULT '' COMMENT '备注',
-  `gmt_created` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '创建时间',
-  `gmt_deleted` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '删除时间',
-  `gmt_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
-  PRIMARY KEY (`id`),
-  KEY `idx_tenant_id` (`tenant_id`,`id`),
-  KEY `idx_tenant_deleted_id` (`tenant_id`,`deleted`,`id`),
-  KEY `idx_tenant_building_room_id` (`tenant_id`,`building_room_id`,`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='居民信息表';
-
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='产品授权';
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

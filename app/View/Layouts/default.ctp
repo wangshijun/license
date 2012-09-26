@@ -6,9 +6,10 @@
 	<?php
 		echo $this->Html->meta('icon');
 
-		//echo $this->Html->css('jquery.ui-1.8.16/jquery.ui.1.8.16.bootstrap.css');
-		echo $this->Html->css('bootstrap-2.1.1/bootstrap.cerulean.min.css');
-		//echo $this->Html->css('bootstrap-2.1.1/bootstrap-responsive.css');
+		// echo $this->Html->css('jquery.ui-1.8.16/jquery.ui.1.8.16.bootstrap.css');
+		// echo $this->Html->css('bootstrap-2.1.1/bootstrap.cerulean.min.css');
+		// echo $this->Html->css('bootstrap-2.1.1/bootstrap-responsive.css');
+		echo $this->Html->css('bootstrap-2.1.1/bootstrap.slate.min.css');
 		echo $this->Html->css('app.default.css');
 
 		if (Configure::read('debug') > 0) {
@@ -26,8 +27,10 @@
 </head>
 <body class="container">
 
+<div id="container">
+
 	<div id="header">
-		<?php echo $this->Html->image("header.jpg"); ?>
+		&nbsp;
 	</div>
 
 	<div id="navbar" class="navbar">
@@ -117,6 +120,8 @@
 		</p>
 	</div>
 	<!-- Footer End -->
+
+</div>
 
 	<?php //echo $this->element('sql_dump'); ?>
 

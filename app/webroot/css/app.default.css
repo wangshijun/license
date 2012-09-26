@@ -1,5 +1,6 @@
 body {
 	font-family: 'Microsoft Yahei', 'Sim Sun', Verdana, Arial, Sans-serif;
+	background-color: #E0E1E1;
 }
 
 a {
@@ -16,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: .5em;
 }
 
-.widget, #footer {
+.widget {
 	border: 1px solid #45AEEA;
 	-webkit-border-radius: .5em;
 	-moz-border-radius: .5em;
@@ -95,10 +96,22 @@ ul.news a.new {
 #header {
 	height: 182px;
 	width: 940px;
+	background: transparent url(../img/header.jpg) right bottom no-repeat;
+}
+
+#navbar>div {
+	border: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
 }
 
 /* Index Page #main */
 #main {
+	background-color: #FFFFFF;
+}
+
+#container {
 	background-color: #FFFFFF;
 }
 
@@ -185,14 +198,13 @@ ul.news a.new {
 #footer {
 	margin-top: 12px;
 	padding: 12px 12px 36px;
-	background: transparent url(../img/footer.jpg) left top no-repeat;
-	height: 60px;
+	background: #21242C;
+	color: #999999;
 }
 
 #footer p {
 	margin-bottom: 0;
-	color: #555;
-	margin: 0 0 9px;
+	color: #999999;
 	font-size: 13px;
 	line-height: 18px;
 }
