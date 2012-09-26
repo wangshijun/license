@@ -445,7 +445,6 @@ CREATE TABLE IF NOT EXISTS `product_prices` (
   `deleted` tinyint(1) NOT NULL DEFAULT '0' COMMENT '是否删除(1表示已删除,0表示未删除)',
   `product_id` int(11) NOT NULL COMMENT '楼号ID',
   `price` int(11) NOT NULL COMMENT '价格(元)',
-  `name` char(255) NOT NULL COMMENT '定价名称',
   `description` text NOT NULL DEFAULT '' COMMENT '定价说明',
   `gmt_created` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '创建时间',
   `gmt_deleted` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '删除时间',
@@ -453,7 +452,7 @@ CREATE TABLE IF NOT EXISTS `product_prices` (
   PRIMARY KEY (`id`),
   KEY `idx_tenant_id` (`tenant_id`,`id`),
   KEY `idx_tenant_deleted_id` (`tenant_id`,`deleted`,`id`),
-  KEY `idx_tenant_building_id_id` (`tenant_id`,`product_id`,`id`)
+  KEY `idx_tenant_product_id` (`tenant_id`,`product_id`,`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='产品定价表';
 
 DROP TABLE IF EXISTS `product_licenses`;
@@ -462,16 +461,19 @@ CREATE TABLE IF NOT EXISTS `product_licenses` (
   `tenant_id` int(11) NOT NULL COMMENT '租户ID',
   `deleted` tinyint(1) NOT NULL DEFAULT '0' COMMENT '是否删除(1表示已删除,0表示未删除)',
   `product_id` int(11) NOT NULL COMMENT '产品ID',
+  `product_price_id` int(11) NOT NULL COMMENT '产品定价策略',
   `customer_name` char(255) NOT NULL COMMENT '客户名称',
-  `php_uname` char(255) NOT NULL COMMENT '安装的机器信息',
-  `license_key` char(255) NOT NULL COMMENT '授权码',
+  `customer_identifier` char(255) NOT NULL COMMENT '安装的机器信息',
+  `license_key` char(64) NOT NULL COMMENT '授权码',
+  `license_date` char(32) NOT NULL COMMENT '授权日期',
+  `license_blocked` tinyint(1) NOT NULL DEFAULT '0' COMMENT '是否黑名单',
   `gmt_created` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '创建时间',
   `gmt_deleted` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '删除时间',
   `gmt_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
   PRIMARY KEY (`id`),
   KEY `idx_tenant_id` (`tenant_id`,`id`),
   KEY `idx_tenant_deleted_id` (`tenant_id`,`deleted`,`id`),
-  KEY `idx_tenant_building_block_id` (`tenant_id`,`building_block_id`,`id`)
+  KEY `idx_tenant_product_id` (`tenant_id`,`product_id`,`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='产品授权';
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

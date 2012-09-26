@@ -26,8 +26,8 @@ echo "<?php\n";
  *
  * PHP version 5
  *
- * @author	 tomato <wangshijun2010@gmail.com>
- * @copyright	(c) 2011 tomato <wangshijun2010@gmail.com>
+ * @author	 wangshijun <wangshijun2010@gmail.com>
+ * @copyright	(c) 2011-<?php echo date('Y'); ?> by wangshijun <wangshijun2010@gmail.com>
  * @package	default
  * @subpackage	<?php echo $controllerName, "\n"; ?>
  */

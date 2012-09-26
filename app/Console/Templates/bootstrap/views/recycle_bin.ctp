@@ -19,7 +19,7 @@
 <div class="<?php echo $pluralVar;?> index">
 	<h2><?php echo "<?php echo __('{$pluralHumanName}');?>";?></h2>
 
-<?php echo "\t<?php echo \$this->BootstrapForm->create('" . $singularHumanName . "', array('url' => array('url' => array_merge(array('action' => 'search', 'recycle_bin' => 1), \$this->params['pass']), 'class' => 'search form-search form-inline'));?>\n"; ?>
+<?php echo "\t<?php echo \$this->BootstrapForm->create('" . $modelClass . "', array('url' => array('url' => array_merge(array('action' => 'search', 'recycle_bin' => 1), \$this->params['pass']), 'class' => 'search form-search form-inline'));?>\n"; ?>
 <?php echo "\t\t<?php echo \$this->BootstrapForm->input('q', array('class' => 'short', 'placeholder' => __('type to search'), 'class' => 'input-medium search-query', 'label' => false, 'div' => false)); ?>\n"; ?>
 <?php echo "\t\t<?php if (is_root_tenant()): ?>\n"; ?>
 <?php echo "\t\t\t<?php echo \$this->BootstrapForm->input('tenant_id', array('validate' => 'min:1', 'label' => false, 'div' => false, 'class' => 'input-medium')); ?>\n"; ?>
@@ -81,7 +81,7 @@
 <?php echo "\t<?php else: ?>\n";?>
 
 	<div class="alert alert-info">
-		<a class="close" data-dismiss="alert">×</a>
+		<a class="close" data-dismiss="alert">Ă</a>
 		<strong><?php echo "<?php echo __('Oops');?>";?></strong> <?php echo "<?php echo __('No data found');?>", "\n";?>
 	</div>
 

@@ -7,7 +7,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => 'root',
-		'database' => 'easy_community',
+		'database' => 'easy_license',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
@@ -18,7 +18,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => 'root',
-		'database' => 'easy_community',
+		'database' => 'easy_license',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
