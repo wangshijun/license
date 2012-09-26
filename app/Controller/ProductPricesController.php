@@ -6,7 +6,7 @@
  *
  * @author	 wangshijun <wangshijun2010@gmail.com>
  * @copyright	(c) 2011-2012 by wangshijun <wangshijun2010@gmail.com>
- * @package	default
+ * @package	Products
  * @subpackage	ProductPrices
  */
 
@@ -55,7 +55,6 @@ class ProductPricesController extends AppController {
 	 * admin_add method
 	 *
 	 * @return void
-	 * @menu true
 	 */
 	public function admin_add() {
 		if ($this->request->is('post')) {

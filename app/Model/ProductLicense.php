@@ -6,7 +6,7 @@
  *
  * @author	 wangshijun <wangshijun2010@gmail.com>
  * @copyright	(c) 2011-2012 by wangshijun <wangshijun2010@gmail.com>
- * @package	default
+ * @package	Products
  * @subpackage	ProductLicense
  */
 
@@ -122,13 +122,6 @@ class ProductLicense extends AppModel {
 			'fields' => '',
 			'order' => ''
 		),
-		'Customerentifier' => array(
-			'className' => 'Customerentifier',
-			'foreignKey' => 'customer_identifier',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		)
 	);
 
 	// Search.Searchable Settings
